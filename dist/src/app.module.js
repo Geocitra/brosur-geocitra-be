@@ -11,6 +11,8 @@ const common_1 = require("@nestjs/common");
 const config_1 = require("@nestjs/config");
 const serve_static_1 = require("@nestjs/serve-static");
 const path_1 = require("path");
+const throttler_1 = require("@nestjs/throttler");
+const core_1 = require("@nestjs/core");
 const prisma_module_1 = require("./prisma/prisma.module");
 const showcase_module_1 = require("./modules/showcase/showcase.module");
 const upload_module_1 = require("./modules/upload/upload.module");
@@ -25,12 +27,21 @@ exports.AppModule = AppModule = __decorate([
                 rootPath: (0, path_1.join)(__dirname, '..', '..', 'uploads'),
                 serveRoot: '/uploads',
             }),
+            throttler_1.ThrottlerModule.forRoot([{
+                    ttl: 60000,
+                    limit: 60,
+                }]),
             prisma_module_1.PrismaModule,
             showcase_module_1.ShowcaseModule,
             upload_module_1.UploadModule,
         ],
         controllers: [],
-        providers: [],
+        providers: [
+            {
+                provide: core_1.APP_GUARD,
+                useClass: throttler_1.ThrottlerGuard,
+            },
+        ],
     })
 ], AppModule);
 //# sourceMappingURL=app.module.js.map

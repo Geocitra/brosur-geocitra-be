@@ -1,0 +1,69 @@
+{
+    "slug": "edaily",
+    "name": "E-Daily Report",
+    "tagline": "Digitalisasi Pelaporan Harian dengan Efisiensi Tinggi",
+    "primaryColor": "#2d5a27",
+    "blocks": [
+        {
+            "type": "HERO_BLOCK",
+            "order": 1,
+            "data": {
+                "title": "E-Daily Report",
+                "description": "Tingkatkan akurasi dan kecepatan pelaporan tim lapangan Anda dengan sistem terintegrasi yang mudah digunakan.",
+                "imageUrl": "/assets/edaily-mockup.png"
+            }
+        },
+        {
+            "type": "FEATURE_BLOCK",
+            "order": 2,
+            "data": {
+                "features": [
+                    {
+                        "icon": "Zap",
+                        "title": "Real-time Sync",
+                        "desc": "Pantau laporan masuk dari lapangan detik ini juga tanpa delay."
+                    },
+                    {
+                        "icon": "WifiOff",
+                        "title": "Offline Mode",
+                        "desc": "Sistem tetap menyimpan data secara lokal saat tidak ada sinyal internet."
+                    },
+                    {
+                        "icon": "ShieldCheck",
+                        "title": "Keamanan Data",
+                        "desc": "Enkripsi tingkat tinggi untuk memastikan data perusahaan Anda aman."
+                    }
+                ]
+            }
+        },
+        {
+            "type": "DOWNLOAD_BLOCK",
+            "order": 3,
+            "data": {
+                "buttonText": "Download Brosur E-Daily (PDF)",
+                "fileUrl": "/uploads/brosur-edaily.pdf"
+            }
+        },
+        {
+            "type": "FAQ_BLOCK",
+            "order": 4,
+            "data": {
+                "title": "Pertanyaan Umum",
+                "items": [
+                    {
+                        "q": "Apakah aplikasi ini bisa berjalan tanpa internet?",
+                        "a": "Sangat bisa. E-Daily Report memiliki fitur Offline Mode yang memungkinkan tim lapangan menginput laporan kapan saja. Data akan otomatis sinkron saat HP kembali mendapatkan sinyal."
+                    },
+                    {
+                        "q": "Bagaimana dengan keamanan data laporan kami?",
+                        "a": "Privasi Anda adalah prioritas. Semua data dienkripsi dengan standar industri dan disimpan di server aman CV Geocitra dengan backup berkala."
+                    },
+                    {
+                        "q": "Apakah ada biaya langganan bulanan?",
+                        "a": "Model bisnis kami sangat fleksibel, mulai dari beli putus (license) hingga sistem langganan sesuai kebutuhan jumlah user di instansi Anda."
+                    }
+                ]
+            }
+        }
+    ]
+}

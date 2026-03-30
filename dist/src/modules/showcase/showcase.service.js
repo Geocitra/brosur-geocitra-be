@@ -20,6 +20,13 @@ let ShowcaseService = class ShowcaseService {
     async getShowcaseBySlug(slug) {
         const showcase = await this.prisma.productShowcase.findUnique({
             where: { slug },
+            select: {
+                slug: true,
+                name: true,
+                tagline: true,
+                primaryColor: true,
+                blocks: true,
+            }
         });
         if (!showcase) {
             throw new common_1.NotFoundException(`Brosur untuk aplikasi dengan slug '${slug}' tidak ditemukan.`);

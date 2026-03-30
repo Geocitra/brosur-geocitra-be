@@ -18,5 +18,9 @@ model ProductShowcase {
   createdAt    DateTime @default(now())
   updatedAt    DateTime @updatedAt
 
+  // [OPTIMASI ANALIS]
+  // Menambahkan explicit B-Tree index untuk mempercepat pencarian data berdasarkan slug
+  @@index([slug])
+  
   @@map("product_showcases")
 }
