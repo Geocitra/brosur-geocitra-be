@@ -17,6 +17,19 @@ let ShowcaseService = class ShowcaseService {
     constructor(prisma) {
         this.prisma = prisma;
     }
+    async getAllShowcases() {
+        return this.prisma.productShowcase.findMany({
+            select: {
+                slug: true,
+                name: true,
+                tagline: true,
+                primaryColor: true,
+            },
+            orderBy: {
+                createdAt: 'asc',
+            },
+        });
+    }
     async getShowcaseBySlug(slug) {
         const showcase = await this.prisma.productShowcase.findUnique({
             where: { slug },

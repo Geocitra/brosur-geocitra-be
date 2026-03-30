@@ -2,7 +2,16 @@ import { ShowcaseService } from './showcase.service';
 export declare class ShowcaseController {
     private readonly showcaseService;
     constructor(showcaseService: ShowcaseService);
-    getShowcase(slug: string): Promise<{
+    getAllShowcases(): Promise<{
+        success: boolean;
+        data: {
+            slug: string;
+            name: string;
+            tagline: string;
+            primaryColor: string;
+        }[];
+    }>;
+    getShowcaseBySlug(slug: string): Promise<{
         slug: string;
         name: string;
         tagline: string;

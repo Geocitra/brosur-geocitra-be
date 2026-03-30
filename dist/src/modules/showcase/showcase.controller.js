@@ -20,18 +20,31 @@ let ShowcaseController = class ShowcaseController {
     constructor(showcaseService) {
         this.showcaseService = showcaseService;
     }
-    async getShowcase(slug) {
+    async getAllShowcases() {
+        const data = await this.showcaseService.getAllShowcases();
+        return {
+            success: true,
+            data: data,
+        };
+    }
+    async getShowcaseBySlug(slug) {
         return this.showcaseService.getShowcaseBySlug(slug);
     }
 };
 exports.ShowcaseController = ShowcaseController;
+__decorate([
+    (0, common_1.Get)(),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", []),
+    __metadata("design:returntype", Promise)
+], ShowcaseController.prototype, "getAllShowcases", null);
 __decorate([
     (0, common_1.Get)(':slug'),
     __param(0, (0, common_1.Param)('slug')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [String]),
     __metadata("design:returntype", Promise)
-], ShowcaseController.prototype, "getShowcase", null);
+], ShowcaseController.prototype, "getShowcaseBySlug", null);
 exports.ShowcaseController = ShowcaseController = __decorate([
     (0, common_1.Controller)('showcase'),
     __metadata("design:paramtypes", [showcase_service_1.ShowcaseService])
