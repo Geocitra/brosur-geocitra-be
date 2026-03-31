@@ -1,0 +1,78 @@
+{
+    "slug": "digiarch",
+    "name": "DIGIARCH",
+    "tagline": "Sistem Informasi Manajemen Arsip Digital: Tertib Administrasi, Cepat Dalam Pencarian.",
+    "primaryColor": "#0f766e",
+    "blocks": [
+        {
+            "type": "HeroBlock",
+            "data": {
+                "title": "Solusi Tata Kelola Arsip Modern & Terintegrasi",
+                "description": "DIGIARCH mengubah tumpukan dokumen fisik menjadi aset digital yang terorganisir. Memberikan kemudahan akses tanpa mengabaikan aspek keamanan dan retensi dokumen sesuai standar kearsipan nasional.",
+                "imageUrl": "/assets/digiarch-mockup.png"
+            }
+        },
+        {
+            "type": "FeaturesBlock",
+            "data": {
+                "title": "Fitur Utama Manajemen Kearsipan",
+                "features": [
+                    {
+                        "icon": "Search",
+                        "title": "Pencarian Cepat & Cerdas",
+                        "desc": "Temukan dokumen dalam hitungan detik menggunakan sistem indexing multi-parameter (Nomor, Perihal, Tanggal, atau Kode Klasifikasi)."
+                    },
+                    {
+                        "icon": "ShieldCheck",
+                        "title": "Keamanan & Hak Akses",
+                        "desc": "Lindungi dokumen sensitif dengan pembatasan hak akses berjenjang. Hanya pengguna berwenang yang dapat melihat, mengunduh, atau menghapus arsip."
+                    },
+                    {
+                        "icon": "CloudUpload",
+                        "title": "Digitalisasi & OCR",
+                        "desc": "Konversi dokumen fisik ke digital dengan dukungan teknologi OCR untuk pembacaan teks otomatis, memudahkan proses verifikasi data."
+                    },
+                    {
+                        "icon": "History",
+                        "title": "Manajemen Retensi Arsip",
+                        "desc": "Pantau siklus hidup dokumen secara otomatis, mulai dari arsip aktif hingga jadwal pemusnahan sesuai Jadwal Retensi Arsip (JRA)."
+                    }
+                ]
+            }
+        },
+        {
+            "type": "VideoBlock",
+            "data": {
+                "title": "Demo Sistem DIGIARCH",
+                "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+            }
+        },
+        {
+            "type": "DownloadBlock",
+            "data": {
+                "buttonText": "Unduh Brosur DIGIARCH",
+                "fileUrl": "/uploads/digiarch.pdf"
+            }
+        },
+        {
+            "type": "FaqBlock",
+            "data": {
+                "title": "Hal yang Sering Ditanyakan",
+                "items": [
+                    {
+                        "q": "Apakah DIGIARCH mendukung penyimpanan dalam jumlah besar?",
+                        "a": "Ya. Sistem dibangun dengan arsitektur penyimpanan berbasis cloud atau on-premise yang scalable, mampu menangani jutaan dokumen tanpa penurunan performa."
+                    },
+                    {
+                        "q": "Bagaimana jika server mengalami kendala?",
+                        "a": "DIGIARCH dilengkapi fitur Backup & Disaster Recovery otomatis untuk memastikan data arsip Anda tetap aman dan dapat dipulihkan kapan saja."
+                    },
+                    {
+                        "q": "Apakah sistem ini sesuai dengan regulasi kearsipan pemerintah?",
+                        "a": "Benar. Struktur indexing dan klasifikasi arsip dalam DIGIARCH dapat disesuaikan dengan standar regulasi kearsipan daerah maupun nasional yang berlaku."
+                    }
+                ]
+            }
+        }
+    ]
+}

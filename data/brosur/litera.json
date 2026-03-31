@@ -1,0 +1,73 @@
+{
+    "slug": "litera",
+    "name": "LITERA",
+    "tagline": "Bertumbuh Dalam Literasi: Membaca dengan Sadar, Menulis dengan Tanggung Jawab.",
+    "primaryColor": "#6366f1",
+    "blocks": [
+        {
+            "type": "HeroBlock",
+            "data": {
+                "title": "Portal E-Learning Literasi Masa Depan",
+                "description": "LITERA adalah platform pembelajaran yang menempatkan manusia, pengalaman, dan proses berpikir sebagai pusatnya. Kami membantu Anda menumbuhkan kebiasaan membaca secara kritis dan menulis secara reflektif.",
+                "imageUrl": "/assets/litera-mockup.png"
+            }
+        },
+        {
+            "type": "FeaturesBlock",
+            "data": {
+                "title": "Metode Pembelajaran 3E",
+                "features": [
+                    {
+                        "icon": "BookOpen",
+                        "title": "Exercise: Fondasi Berpikir",
+                        "desc": "Ruang belajar terstruktur untuk memperoleh kerangka berpikir, konsep dasar, dan pemahaman sistematis tentang literasi membaca dan menulis."
+                    },
+                    {
+                        "icon": "MessageSquare",
+                        "title": "Experience: Ruang Refleksi",
+                        "desc": "Pembelajaran berbasis pengalaman kolektif. Disini pengalaman hidup diolah menjadi sumber pembelajaran yang bernilai tinggi melalui diskusi terstruktur."
+                    },
+                    {
+                        "icon": "PenTool",
+                        "title": "Experiment: Praktik Nyata",
+                        "desc": "Ruang untuk menerapkan pembelajaran dalam menghasilkan buku karya sendiri. Fokus pada keberanian mencoba dan belajar dari proses penulisan."
+                    }
+                ]
+            }
+        },
+        {
+            "type": "VideoBlock",
+            "data": {
+                "title": "Visi Literasi oleh Kang Maman",
+                "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+            }
+        },
+        {
+            "type": "DownloadBlock",
+            "data": {
+                "buttonText": "Baca Panduan Belajar",
+                "fileUrl": "/uploads/litera-learning.pdf"
+            }
+        },
+        {
+            "type": "FaqBlock",
+            "data": {
+                "title": "Mengenal Lebih Dekat",
+                "items": [
+                    {
+                        "q": "Apa peran Mentor dalam ekosistem LITERA?",
+                        "a": "Mentor berperan sebagai 'Literacy Learning & Reflection Guide'. Mereka memantik refleksi, menjaga kualitas diskusi, dan memberikan umpan balik reflektif tanpa menghakimi suara asli peserta."
+                    },
+                    {
+                        "q": "Apakah diskusi di LITERA bersifat terbuka bebas?",
+                        "a": "Tidak. Diskusi di bagian 'Experience' diarahkan oleh prompt reflektif yang disediakan sistem untuk memastikan komunikasi tetap etis, sadar, dan berfokus pada pemaknaan pengalaman."
+                    },
+                    {
+                        "q": "Bagaimana cara mendapatkan sertifikasi di LITERA?",
+                        "a": "LITERA memberikan sertifikat berdasarkan level dan progres belajar, yang mengakui konsistensi belajar, kedalaman refleksi, serta kualitas karya tulis yang dihasilkan selama proses Experiment."
+                    }
+                ]
+            }
+        }
+    ]
+}

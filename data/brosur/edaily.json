@@ -1,66 +1,62 @@
 {
     "slug": "edaily",
     "name": "E-Daily Report",
-    "tagline": "Digitalisasi Pelaporan Harian dengan Efisiensi Tinggi",
+    "tagline": "Solusi Cerdas untuk Pelaporan Terintegrasi & Berbasis Lokasi.",
     "primaryColor": "#10b981",
     "blocks": [
         {
-            "type": "HERO_BLOCK",
-            "order": 1,
+            "type": "HeroBlock",
             "data": {
-                "title": "E-Daily Report",
-                "description": "Tingkatkan akurasi dan kecepatan pelaporan tim lapangan Anda dengan sistem terintegrasi yang mudah digunakan.",
+                "title": "Transformasi Digital Kinerja Pegawai",
+                "description": "Mengubah absensi menjadi kinerja berbasis bukti. E-Daily Report mentransformasikan pelaporan dari sekadar kehadiran fisik menjadi pemantauan output kerja yang tervalidasi dan terukur secara spasial.",
                 "imageUrl": "/assets/edaily-mockup.png"
             }
         },
         {
-            "type": "FEATURE_BLOCK",
-            "order": 2,
+            "type": "FeaturesBlock",
             "data": {
                 "features": [
                     {
-                        "icon": "Zap",
-                        "title": "Real-time Sync",
-                        "desc": "Pantau laporan masuk dari lapangan detik ini juga tanpa delay."
+                        "icon": "MapPin",
+                        "title": "Validasi Spasial & Tracking",
+                        "desc": "Menjawab tantangan birokrasi modern. Memantau ASN secara presisi saat Work From Home (WFH) atau tugas lapangan (WFA) dengan validasi lokasi real-time."
                     },
                     {
-                        "icon": "WifiOff",
-                        "title": "Offline Mode",
-                        "desc": "Sistem tetap menyimpan data secara lokal saat tidak ada sinyal internet."
+                        "icon": "Target",
+                        "title": "Integrasi Target Daerah (SKP)",
+                        "desc": "Aktivitas harian (LKH) tidak berdiri sendiri. Sistem secara otomatis menghubungkan dan mengakumulasi pekerjaan harian menjadi capaian Sasaran Kinerja Pegawai."
                     },
                     {
                         "icon": "ShieldCheck",
-                        "title": "Keamanan Data",
-                        "desc": "Enkripsi tingkat tinggi untuk memastikan data perusahaan Anda aman."
+                        "title": "Jejak Digital Anti-Manipulasi",
+                        "desc": "Tinggalkan laporan manual yang rawan manipulasi. Kinerja diukur dengan angka pasti melalui Log Aktivitas permanen untuk transparansi total."
                     }
                 ]
             }
         },
         {
-            "type": "DOWNLOAD_BLOCK",
-            "order": 3,
+            "type": "DownloadBlock",
             "data": {
-                "buttonText": "Download Brosur E-Daily (PDF)",
+                "buttonText": "Baca Detail Brosur",
                 "fileUrl": "/uploads/brosur-edaily.pdf"
             }
         },
         {
-            "type": "FAQ_BLOCK",
-            "order": 4,
+            "type": "FaqBlock",
             "data": {
                 "title": "Pertanyaan Umum",
                 "items": [
                     {
-                        "q": "Apakah aplikasi ini bisa berjalan tanpa internet?",
-                        "a": "Sangat bisa. E-Daily Report memiliki fitur Offline Mode yang memungkinkan tim lapangan menginput laporan kapan saja. Data akan otomatis sinkron saat HP kembali mendapatkan sinyal."
+                        "q": "Bagaimana sistem mencegah manipulasi data laporan?",
+                        "a": "E-Daily Report dilengkapi dengan fitur 'Jejak Digital Permanen'. Setiap log aktivitas—mulai dari login, input, hingga revisi laporan—tercatat dengan stempel waktu dan status yang tidak dapat dimodifikasi secara sepihak."
                     },
                     {
-                        "q": "Bagaimana dengan keamanan data laporan kami?",
-                        "a": "Privasi Anda adalah prioritas. Semua data dienkripsi dengan standar industri dan disimpan di server aman CV Geocitra dengan backup berkala."
+                        "q": "Apakah evaluasi kinerja masih bersifat subjektif?",
+                        "a": "Tidak. Sistem kami menghadirkan 'Skoring Objektif'. Kinerja pegawai dinilai secara otomatis berdasarkan persentase Approval Rate dari atasan dan rata-rata jam kerja harian yang terekam di sistem."
                     },
                     {
-                        "q": "Apakah ada biaya langganan bulanan?",
-                        "a": "Model bisnis kami sangat fleksibel, mulai dari beli putus (license) hingga sistem langganan sesuai kebutuhan jumlah user di instansi Anda."
+                        "q": "Bisakah atasan memberikan penolakan pada laporan harian?",
+                        "a": "Bisa. Alur sistem memiliki fitur 'Keputusan & Feedback' di mana atasan berhak menolak laporan jika bukti dan lokasi tidak sesuai, dan pegawai diwajibkan melakukan perbaikan yang jejaknya akan terekam."
                     }
                 ]
             }

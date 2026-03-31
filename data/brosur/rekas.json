@@ -1,0 +1,78 @@
+{
+    "slug": "rekas",
+    "name": "REKAS",
+    "tagline": "Transformasi Retribusi Sampah: Digital, Akurat, dan Transparan untuk Pendapatan Daerah.",
+    "primaryColor": "#10b981",
+    "blocks": [
+        {
+            "type": "HeroBlock",
+            "data": {
+                "title": "Sistem Elektronik Retribusi Persampahan Modern",
+                "description": "REKAS mendigitalisasi seluruh proses retribusi dari hulu ke hilir untuk meningkatkan efisiensi kerja Staff Dinas, UPT, hingga Petugas Penagih di lapangan.",
+                "imageUrl": "/assets/rekas-mockup.png"
+            }
+        },
+        {
+            "type": "FeaturesBlock",
+            "data": {
+                "title": "Solusi Digital End-to-End",
+                "features": [
+                    {
+                        "icon": "Database",
+                        "title": "Pendataan Subjek & NPWRD",
+                        "desc": "Input data wajib retribusi secara digital dan penerbitan kartu NPWRD instan untuk Rumah Tangga, Komersial, maupun Industri."
+                    },
+                    {
+                        "icon": "FileCheck",
+                        "title": "Penetapan SKRD & SSRD",
+                        "desc": "Sistem otomatis menghitung tarif dan mencetak Surat Ketetapan Retribusi Daerah serta menerbitkan Bukti Setoran Digital (SSRD) seketika."
+                    },
+                    {
+                        "icon": "Smartphone",
+                        "title": "Penagihan & Monitoring Mobile",
+                        "desc": "Petugas lapangan dilengkapi aplikasi mobile untuk memantau tagihan dan melakukan validasi pembayaran secara real-time."
+                    },
+                    {
+                        "icon": "BarChart3",
+                        "title": "Dashboard Monitoring Dinas",
+                        "desc": "Pantau pencapaian target retribusi dan rekapitulasi keuangan harian tanpa perlu rekap manual yang rawan kesalahan."
+                    }
+                ]
+            }
+        },
+        {
+            "type": "VideoBlock",
+            "data": {
+                "title": "Alur Kerja Digital REKAS",
+                "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+            }
+        },
+        {
+            "type": "DownloadBlock",
+            "data": {
+                "buttonText": "Unduh Brosur Rekas",
+                "fileUrl": "/uploads/rekas-brosur.pdf"
+            }
+        },
+        {
+            "type": "FaqBlock",
+            "data": {
+                "title": "Pertanyaan Umum (FAQ)",
+                "items": [
+                    {
+                        "q": "Bagaimana REKAS mencegah kebocoran PAD?",
+                        "a": "Dengan validasi digital di setiap tahap, bukti setor (SSRD) hanya terbit setelah pembayaran divalidasi bendahara, dan semua transaksi terekam secara real-time dalam log sistem yang permanen."
+                    },
+                    {
+                        "q": "Apakah sistem ini mendukung penggunaan tanpa kertas (Paperless)?",
+                        "a": "Ya. Seluruh dokumen seperti SKRD dan SSRD dapat dikirim langsung ke wajib retribusi melalui WhatsApp atau Email, mengurangi biaya cetak secara signifikan."
+                    },
+                    {
+                        "q": "Siapa saja pengguna yang terlibat dalam sistem REKAS?",
+                        "a": "REKAS dirancang untuk kolaborasi antar peran: Staff Dinas/UPT (Administrasi), Bendahara (Validasi Keuangan), Penagih (Operasional Lapangan), dan Kepala Dinas (Monitoring)."
+                    }
+                ]
+            }
+        }
+    ]
+}
