@@ -51,7 +51,7 @@
             "type": "DownloadBlock",
             "data": {
                 "buttonText": "Unduh Brosur Rekas",
-                "fileUrl": "/uploads/rekas-brosur.pdf"
+                "fileUrl": "/uploads/brosur-rekas.pdf"
             }
         },
         {
