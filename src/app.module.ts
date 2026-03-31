@@ -13,9 +13,11 @@ import { UploadModule } from './modules/upload/upload.module';
 @Module({
   imports: [
     ConfigModule.forRoot({ isGlobal: true }),
+    
+    // [CRITICAL FIX] Menggunakan process.cwd() dan menambahkan /api di serveRoot
     ServeStaticModule.forRoot({
-      rootPath: join(__dirname, '..', '..', 'uploads'),
-      serveRoot: '/uploads',
+      rootPath: join(process.cwd(), 'uploads'),
+      serveRoot: '/api/uploads',
     }),
 
     // Konfigurasi Rate Limiting: Maksimal 60 request per 60.000 ms (1 Menit)
@@ -31,7 +33,6 @@ import { UploadModule } from './modules/upload/upload.module';
   controllers: [],
   providers: [
     {
-      // Mengaktifkan pelindung Throttler ke SEMUA endpoint secara global
       provide: APP_GUARD,
       useClass: ThrottlerGuard,
     },
