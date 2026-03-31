@@ -1,0 +1,77 @@
+{
+    "slug": "keuanganku",
+    "name": "KeuanganKu",
+    "tagline": "Platform Perencanaan Keuangan Internal untuk Kesejahteraan Karyawan Perusahaan.",
+    "primaryColor": "#0ea5e9",
+    "blocks": [
+        {
+            "type": "HeroBlock",
+            "data": {
+                "title": "Kesejahteraan Finansial Karyawan Dimulai dari Sini",
+                "description": "Solusi digital eksklusif berstandar Enterprise untuk membantu karyawan melakukan self-assessment kesehatan finansial, mengelola arus kas, dan merencanakan masa depan secara mandiri.",
+                "imageUrl": "/assets/keuanganku-mockup.png"
+            }
+        },
+        {
+            "type": "FeaturesBlock",
+            "data": {
+                "title": "Arsitektur & Modul Utama",
+                "features": [
+                    {
+                        "title": "Cek Kesehatan Keuangan",
+                        "description": "Mendiagnosis status keuangan (Sehat, Waspada, Risiko) secara real-time berdasarkan cashflow dan neraca, lengkap dengan skor finansial (0-100) dan rekomendasi otomatis."
+                    },
+                    {
+                        "title": "Kalkulator Perencanaan Mandiri",
+                        "description": "Modul simulasi matematis presisi untuk membantu merencanakan Dana Pendidikan Anak, Persiapan Hari Tua (Pensiun), hingga Rencana Beli Rumah."
+                    },
+                    {
+                        "title": "History Persistence (Snapshot)",
+                        "description": "Sistem menyimpan setiap hasil analisa sebagai record baru. Data lama tidak pernah ditimpa (no overwrite), memungkinkan pelacakan progres historis yang akurat."
+                    },
+                    {
+                        "title": "Modul Literasi & Edukasi",
+                        "description": "Materi pembelajaran terstruktur seperti 'Mindset Keuangan' dan 'Mengelola Cicilan Sehat' untuk meningkatkan pemahaman dan kedewasaan finansial karyawan."
+                    }
+                ]
+            }
+        },
+        {
+            "type": "VideoBlock",
+            "data": {
+                "title": "Panduan Penggunaan KeuanganKu",
+                "videoUrl": "https://www.youtube.com/embed/your-video-id-here",
+                "thumbnailUrl": "/assets/keuanganku-video-thumb.png"
+            }
+        },
+        {
+            "type": "DownloadBlock",
+            "data": {
+                "title": "Eksplorasi Spesifikasi Teknis",
+                "description": "Pelajari lebih lanjut mengenai arsitektur sistem, business constraints, dan proposal adopsi KeuanganKu untuk Corporate melalui dokumen resmi kami.",
+                "fileUrl": "/uploads/brosur-keuanganku.pdf",
+                "fileName": "Spesifikasi_Keuanganku_Corporate.pdf"
+            }
+        },
+        {
+            "type": "FaqBlock",
+            "data": {
+                "title": "System Constraints & FAQ",
+                "faqs": [
+                    {
+                        "question": "Apakah data finansial pribadi saya bisa dilihat oleh atasan atau Manajemen Perusahaan?",
+                        "answer": "Tidak. Sistem mengimplementasikan Business Constraints tingkat tinggi terkait privasi data. Administrator sistem dan Manajemen dilarang keras serta tidak memiliki fitur untuk melihat data detail analisa per individu (View by NIP/ID Karyawan). Akses admin murni terbatas pada manajemen akun (Enable/Disable)."
+                    },
+                    {
+                        "question": "Bagaimana jika saya membuka aplikasi di area operasional lapangan tanpa sinyal internet?",
+                        "answer": "Aplikasi dirancang dengan Off-line Capability (PWA). Anda tetap bisa membuka aplikasi dan melihat data riwayat (cache) terakhir Anda meskipun koneksi internet terputus. Namun, input data baru tetap memerlukan koneksi jaringan aktif."
+                    },
+                    {
+                        "question": "Apakah aplikasi ini akan merekomendasikan produk asuransi atau investasi dari pihak ketiga?",
+                        "answer": "Tidak. Aplikasi ini memiliki konstrain netralitas. Sistem tidak boleh dan tidak akan menampilkan nama produk asuransi atau investasi spesifik. Rekomendasi yang diberikan murni berupa saran generik (misal: 'Tingkatkan dana darurat' atau 'Pertimbangkan instrumen pasar uang')."
+                    }
+                ]
+            }
+        }
+    ]
+}
