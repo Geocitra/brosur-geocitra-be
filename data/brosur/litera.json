@@ -46,7 +46,7 @@
             "type": "DownloadBlock",
             "data": {
                 "buttonText": "Baca Panduan Belajar",
-                "fileUrl": "/uploads/litera-learning.pdf"
+                "fileUrl": "/uploads/brosur-litera.pdf"
             }
         },
         {
