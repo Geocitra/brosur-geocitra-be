@@ -3,13 +3,13 @@ import * as fs from 'fs';
 import * as path from 'path';
 
 export default async function seed(prisma: PrismaClient) {
-    console.log('🌱 Memulai proses seeding data Showcase secara dinamis...');
+    console.log('🌱 Memulai proses seeding data Showcase secara dinamis (Multi-language Support)...');
 
     // 1. Definisikan absolute path ke direktori data/brosur
-    // process.cwd() menunjuk ke root directory dari eksekusi backend (brosur-geocitra-be)
+    // process.cwd() menunjuk ke root directory dari eksekusi backend
     const dataDir = path.join(process.cwd(), 'data', 'brosur');
 
-    // 2. Validasi eksistensi direktori
+    // 2. Validasi eksistensi direktori (Fail-fast mechanism)
     if (!fs.existsSync(dataDir)) {
         console.error(`❌ Direktori tidak ditemukan: ${dataDir}`);
         return;
@@ -18,7 +18,7 @@ export default async function seed(prisma: PrismaClient) {
     // 3. Baca semua isi direktori
     const files = fs.readdirSync(dataDir);
 
-    // 4. Filter hanya file berekstensi .json (menghindari hidden file atau ekstensi lain)
+    // 4. Filter hanya file berekstensi .json
     const jsonFiles = files.filter(file => file.endsWith('.json'));
 
     if (jsonFiles.length === 0) {
@@ -26,7 +26,7 @@ export default async function seed(prisma: PrismaClient) {
         return;
     }
 
-    console.log(`📦 Ditemukan ${jsonFiles.length} file konfigurasi brosur. Memproses data...`);
+    console.log(`📦 Ditemukan ${jsonFiles.length} file konfigurasi brosur (ID & EN). Memproses data...`);
 
     // 5. Iterasi dan Upsert setiap file JSON
     for (const file of jsonFiles) {
@@ -38,41 +38,44 @@ export default async function seed(prisma: PrismaClient) {
             const payload = JSON.parse(fileContent);
 
             // Destructuring data untuk memetakan ke Prisma model
-            // Asumsi kontrak JSON yang baku: slug, name, tagline, primaryColor, blocks
             const { slug, name, tagline, primaryColor, blocks } = payload;
 
-            // Proteksi: Pastikan slug ada, karena ini adalah primary/unique key
-            if (!slug) {
-                console.warn(`⚠️ [SKIP] File ${file} dilewati karena tidak memiliki property 'slug'.`);
+            // Proteksi: Pastikan property wajib ada sesuai skema database
+            if (!slug || !name) {
+                console.warn(`⚠️ [SKIP] File ${file} dilewati karena property 'slug' atau 'name' tidak ditemukan.`);
                 continue;
             }
 
-            console.log(`🔄 Meng-upsert data aplikasi: ${name} (${slug})`);
+            // Analisis status bahasa untuk visualisasi log
+            const isEnglish = slug.endsWith('-en');
+            const langLabel = isEnglish ? '🇬🇧 EN' : '🇮🇩 ID';
 
-            // 6. Eksekusi Upsert (Update jika ada, Insert jika belum ada)
+            console.log(`🔄 [${langLabel}] Meng-upsert data aplikasi: ${name} (${slug})`);
+
+            // 6. Eksekusi Upsert dengan perlindungan Fallback
+            // Memastikan data yang tidak lengkap pada versi EN tidak mematahkan query
             await prisma.productShowcase.upsert({
                 where: { slug: slug },
                 update: {
                     name,
-                    tagline,
-                    primaryColor,
-                    // Karena blocks bersifat JSON di skema database, kita bisa langsung melempar array object-nya
-                    blocks
+                    tagline: tagline || '',
+                    primaryColor: primaryColor || '#020617', // Fallback warna aman
+                    blocks: blocks || []
                 },
                 create: {
                     slug,
                     name,
-                    tagline,
-                    primaryColor,
-                    blocks
+                    tagline: tagline || '',
+                    primaryColor: primaryColor || '#020617',
+                    blocks: blocks || []
                 }
             });
 
         } catch (error) {
-            // Tangkap error jika file JSON tidak valid secara syntax
+            // Tangkap error jika file JSON tidak valid secara syntax (misal ada koma berlebih)
             console.error(`❌ Gagal memproses file ${file}:`, error instanceof Error ? error.message : error);
         }
     }
 
-    console.log('✅ Seeding Showcase selesai!');
+    console.log('✅ Seeding Showcase selesai! Database telah disinkronisasi dengan file JSON terbaru.');
 }

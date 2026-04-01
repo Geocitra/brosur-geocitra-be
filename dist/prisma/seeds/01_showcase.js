@@ -37,7 +37,7 @@ exports.default = seed;
 const fs = __importStar(require("fs"));
 const path = __importStar(require("path"));
 async function seed(prisma) {
-    console.log('🌱 Memulai proses seeding data Showcase secara dinamis...');
+    console.log('🌱 Memulai proses seeding data Showcase secara dinamis (Multi-language Support)...');
     const dataDir = path.join(process.cwd(), 'data', 'brosur');
     if (!fs.existsSync(dataDir)) {
         console.error(`❌ Direktori tidak ditemukan: ${dataDir}`);
@@ -49,32 +49,34 @@ async function seed(prisma) {
         console.log('⚠️ Tidak ada file .json yang ditemukan di direktori data/brosur.');
         return;
     }
-    console.log(`📦 Ditemukan ${jsonFiles.length} file konfigurasi brosur. Memproses data...`);
+    console.log(`📦 Ditemukan ${jsonFiles.length} file konfigurasi brosur (ID & EN). Memproses data...`);
     for (const file of jsonFiles) {
         const filePath = path.join(dataDir, file);
         const fileContent = fs.readFileSync(filePath, 'utf-8');
         try {
             const payload = JSON.parse(fileContent);
             const { slug, name, tagline, primaryColor, blocks } = payload;
-            if (!slug) {
-                console.warn(`⚠️ [SKIP] File ${file} dilewati karena tidak memiliki property 'slug'.`);
+            if (!slug || !name) {
+                console.warn(`⚠️ [SKIP] File ${file} dilewati karena property 'slug' atau 'name' tidak ditemukan.`);
                 continue;
             }
-            console.log(`🔄 Meng-upsert data aplikasi: ${name} (${slug})`);
+            const isEnglish = slug.endsWith('-en');
+            const langLabel = isEnglish ? '🇬🇧 EN' : '🇮🇩 ID';
+            console.log(`🔄 [${langLabel}] Meng-upsert data aplikasi: ${name} (${slug})`);
             await prisma.productShowcase.upsert({
                 where: { slug: slug },
                 update: {
                     name,
-                    tagline,
-                    primaryColor,
-                    blocks
+                    tagline: tagline || '',
+                    primaryColor: primaryColor || '#020617',
+                    blocks: blocks || []
                 },
                 create: {
                     slug,
                     name,
-                    tagline,
-                    primaryColor,
-                    blocks
+                    tagline: tagline || '',
+                    primaryColor: primaryColor || '#020617',
+                    blocks: blocks || []
                 }
             });
         }
@@ -82,6 +84,6 @@ async function seed(prisma) {
             console.error(`❌ Gagal memproses file ${file}:`, error instanceof Error ? error.message : error);
         }
     }
-    console.log('✅ Seeding Showcase selesai!');
+    console.log('✅ Seeding Showcase selesai! Database telah disinkronisasi dengan file JSON terbaru.');
 }
 //# sourceMappingURL=01_showcase.js.map

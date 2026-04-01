@@ -1,0 +1,101 @@
+{
+    "slug": "rekas-en",
+    "name": "REKAS",
+    "tagline": "Waste Retribution Transformation: Digital, Accurate, and Transparent for Regional Revenue.",
+    "primaryColor": "#10b981",
+    "blocks": [
+        {
+            "type": "HeroBlock",
+            "data": {
+                "title": "Modern Electronic Waste Retribution System",
+                "description": "REKAS digitalizes the entire retribution process from end-to-end to enhance the operational efficiency of Department Staff, Technical Units (UPT), and Field Collection Officers.",
+                "imageUrl": "/assets/rekas-mockup.png",
+                "fileUrl": "/uploads/brosur-rekas.pdf",
+                "buttonText": "View Full Brochure (PDF)"
+            }
+        },
+        {
+            "type": "FeaturesBlock",
+            "data": {
+                "title": "End-to-End Digital Solution",
+                "features": [
+                    {
+                        "icon": "Database",
+                        "title": "Subject & NPWRD Registration",
+                        "desc": "Digitalized data entry for retribution-obligated parties and instant issuance of NPWRD cards for Households, Commercial, and Industrial sectors.",
+                        "mediaUrl": "/assets/features/rekas/pendataan.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "FileCheck",
+                        "title": "SKRD & SSRD Determination",
+                        "desc": "Automated tariff calculation, printing of Regional Retribution Assessment Letters (SKRD), and instant issuance of Digital Deposit Receipts (SSRD).",
+                        "mediaUrl": "/assets/features/rekas/penetapan.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "Smartphone",
+                        "title": "Mobile Billing & Monitoring",
+                        "desc": "Field officers are equipped with a mobile application to monitor outstanding bills and perform real-time payment validation.",
+                        "mediaUrl": "/assets/features/rekas/penagihan-mobile.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "BarChart3",
+                        "title": "Departmental Monitoring Dashboard",
+                        "desc": "Monitor retribution target achievements and daily financial summaries without the need for error-prone manual recaps.",
+                        "mediaUrl": "/assets/features/rekas/dashboard.png",
+                        "mediaType": "image"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "SocialProofBlock",
+            "data": {
+                "title": "Trusted and Implemented By:",
+                "logos": [
+                    {
+                        "name": "Bogor Regency",
+                        "imageUrl": "/assets/klien/kab-bogor.png"
+                    },
+                    {
+                        "name": "Timika Regency",
+                        "imageUrl": "/assets/klien/kab-timika.png"
+                    },
+                    {
+                        "name": "West Bandung Regency",
+                        "imageUrl": "/assets/klien/kab-bandung-barat.png"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "VideoBlock",
+            "data": {
+                "title": "REKAS Digital Workflow",
+                "videoUrl": ""
+            }
+        },
+        {
+            "type": "FaqBlock",
+            "data": {
+                "title": "Frequently Asked Questions (FAQ)",
+                "items": [
+                    {
+                        "q": "How does REKAS prevent regional revenue (PAD) leakage?",
+                        "a": "Through digital validation at every stage; deposit receipts (SSRD) are only issued after treasurer validation, and all transactions are recorded in real-time within permanent system logs."
+                    },
+                    {
+                        "q": "Does this system support paperless operations?",
+                        "a": "Yes. All documents, including Assessment Letters (SKRD) and Deposit Receipts (SSRD), can be sent directly to retribution payers via WhatsApp or Email, significantly reducing printing costs."
+                    },
+                    {
+                        "q": "Who are the users involved in the REKAS system?",
+                        "a": "REKAS is designed for cross-role collaboration: Department/UPT Staff (Administration), Treasurers (Financial Validation), Collectors (Field Operations), and Department Heads (Monitoring)."
+                    }
+                ]
+            }
+        }
+    ]
+}

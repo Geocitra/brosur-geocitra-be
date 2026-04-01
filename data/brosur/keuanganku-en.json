@@ -1,0 +1,102 @@
+{
+    "slug": "keuanganku-en",
+    "name": "KeuanganKu",
+    "tagline": "An Internal Financial Planning Platform for Corporate Employee Wellbeing.",
+    "primaryColor": "#0ea5e9",
+    "blocks": [
+        {
+            "type": "HeroBlock",
+            "order": 1,
+            "data": {
+                "title": "Employee Financial Wellbeing Starts Here",
+                "description": "An exclusive Enterprise-grade digital solution designed to empower employees in performing financial health self-assessments, managing cash flows, and planning for the future independently.",
+                "imageUrl": "/assets/keuanganku-mockup.png",
+                "fileUrl": "/uploads/brosur-keuanganku.pdf",
+                "buttonText": "View Full Brochure (PDF)"
+            }
+        },
+        {
+            "type": "FeaturesBlock",
+            "order": 2,
+            "data": {
+                "title": "Core Architecture & Modules",
+                "features": [
+                    {
+                        "icon": "HeartPulse",
+                        "title": "Financial Health Check",
+                        "desc": "Real-time diagnosis of financial status (Healthy, Alert, At-Risk) based on cash flow and balance sheets, complete with financial scores (0-100) and automated recommendations.",
+                        "mediaUrl": "/assets/features/keuanganku/cek-kesehatan.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "Calculator",
+                        "title": "Self-Planning Calculators",
+                        "desc": "Precision mathematical simulation modules to help plan for Children's Education Funds, Retirement Planning (Pension), and Home Ownership Goals.",
+                        "mediaUrl": "/assets/features/keuanganku/kalkulator.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "History",
+                        "title": "History Persistence (Snapshot)",
+                        "desc": "The system saves every analysis result as a new record. Existing data is never overwritten, enabling accurate historical progress tracking over time.",
+                        "mediaUrl": "/assets/features/keuanganku/history.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "BookOpen",
+                        "title": "Literacy & Education Module",
+                        "desc": "Structured learning materials such as 'Financial Mindset' and 'Managing Healthy Debt' to enhance employees' financial understanding and maturity.",
+                        "mediaUrl": "/assets/features/keuanganku/edukasi.png",
+                        "mediaType": "image"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "SocialProofBlock",
+            "order": 3,
+            "data": {
+                "title": "Co-developed By:",
+                "logos": [
+                    {
+                        "name": "MAX PRO Sinergy",
+                        "imageUrl": "/assets/klien/maxipro.png"
+                    },
+                    {
+                        "name": "Geocitra",
+                        "imageUrl": "/logogeocitra.png"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "VideoBlock",
+            "order": 4,
+            "data": {
+                "title": "KeuanganKu Usage Guide",
+                "videoUrl": ""
+            }
+        },
+        {
+            "type": "FaqBlock",
+            "order": 5,
+            "data": {
+                "title": "System Constraints & FAQ",
+                "items": [
+                    {
+                        "q": "Can my superiors or Company Management view my personal financial data?",
+                        "a": "No. The system implements high-level Business Constraints regarding data privacy. System administrators and Management are strictly prohibited and lack the features to view detailed individual analysis data (No View by NIP/Employee ID). Admin access is strictly limited to account management (Enable/Disable)."
+                    },
+                    {
+                        "q": "What if I access the application in an operational field area without an internet signal?",
+                        "a": "The application is designed with Offline Capability (PWA). You can still access the app and view your last cached history even if the internet connection is lost. However, active network connectivity is required to input new data."
+                    },
+                    {
+                        "q": "Will this app recommend insurance or investment products from third parties?",
+                        "a": "No. This application operates under a neutrality constraint. The system is not allowed to—and will not—display specific insurance or investment product names. Recommendations are purely generic advice (e.g., 'Increase your emergency fund' or 'Consider money market instruments')."
+                    }
+                ]
+            }
+        }
+    ]
+}

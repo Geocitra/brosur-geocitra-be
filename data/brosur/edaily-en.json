@@ -1,0 +1,102 @@
+{
+    "slug": "edaily-en",
+    "name": "E-Daily Report",
+    "tagline": "Digital Transformation of Employee Performance: Smart Solutions for Integrated & Location-Based Reporting.",
+    "primaryColor": "#2d5a27",
+    "blocks": [
+        {
+            "type": "HeroBlock",
+            "order": 1,
+            "data": {
+                "title": "Digital Transformation of Employee Performance",
+                "description": "E-Daily Report transforms reporting from mere physical attendance into validated and spatially measured work output monitoring.",
+                "imageUrl": "/assets/edaily-mockup.png",
+                "fileUrl": "/uploads/brosur-edaily.pdf",
+                "buttonText": "View Full Brochure (PDF)"
+            }
+        },
+        {
+            "type": "FeaturesBlock",
+            "order": 2,
+            "data": {
+                "title": "Turning Attendance into Evidence-Based Performance",
+                "features": [
+                    {
+                        "icon": "MapPin",
+                        "title": "Location Tracking & Geotagging",
+                        "desc": "Monitor employee location and movement in real-time during field assignments (WFA) or WFH with high-precision mapping accuracy.",
+                        "mediaUrl": "/assets/features/edaily/tracking-lokasi.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "CheckCircle",
+                        "title": "Multi-Level Digital Validation",
+                        "desc": "Digital report approval workflows by direct supervisors to ensure work output quality before it is consolidated into the system.",
+                        "mediaUrl": "/assets/features/edaily/validasi-digital.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "Target",
+                        "title": "Integrated with Performance Targets (SKP)",
+                        "desc": "Daily activities (LKH) do not stand alone. The system automatically links and accumulates daily work into Employee Performance Target (SKP) achievements.",
+                        "mediaUrl": "/assets/features/edaily/integrasi-skp.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "FileText",
+                        "title": "Digital Footprint & Objective Scoring",
+                        "desc": "Equipped with permanent Activity Logs to prevent data manipulation, along with transparent quantitative assessments like Approval Rates and work hour calculations.",
+                        "mediaUrl": "/assets/features/edaily/skoring-objektif.png",
+                        "mediaType": "image"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "SocialProofBlock",
+            "order": 3,
+            "data": {
+                "title": "Trusted and Utilized by Various Institutions:",
+                "logos": [
+                    {
+                        "name": "Government Agency A",
+                        "imageUrl": "/assets/klien/kab-timika.png"
+                    },
+                    {
+                        "name": "Government Agency B",
+                        "imageUrl": "/assets/klien/kab-bandung-barat.png"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "VideoBlock",
+            "order": 4,
+            "data": {
+                "title": "E-Daily Report Workflow",
+                "videoUrl": ""
+            }
+        },
+        {
+            "type": "FaqBlock",
+            "order": 5,
+            "data": {
+                "title": "Frequently Asked Questions (FAQ)",
+                "items": [
+                    {
+                        "q": "How does E-Daily differentiate between standard attendance and performance appraisal?",
+                        "a": "Unlike conventional fingerprint attendance, E-Daily requires employees to input Daily Activity Logs (LKH) along with photo evidence and GPS coordinates, which must then be validated by supervisors to be calculated as performance achievement."
+                    },
+                    {
+                        "q": "Is this system secure against location manipulation (Fake GPS)?",
+                        "a": "Yes, the E-Daily mobile application is equipped with multi-layered Mock Location detection and Geo-fencing to reject data if GPS spoofing apps are detected."
+                    },
+                    {
+                        "q": "How is it integrated with Employee Benefit (TPP) calculations?",
+                        "a": "Our system generates comprehensive quantitative data recaps, ranging from effective work hours to report approval percentages, which can be exported directly as a basis for objective Employee Benefit (TPP) disbursement calculations."
+                    }
+                ]
+            }
+        }
+    ]
+}

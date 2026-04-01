@@ -1,0 +1,98 @@
+{
+    "slug": "digiarch-en",
+    "name": "DigiArch (E-Archive)",
+    "tagline": "An Orderly, Secure, and Integrated Digital Archive Management Information System.",
+    "primaryColor": "#d97706",
+    "blocks": [
+        {
+            "type": "HeroBlock",
+            "order": 1,
+            "data": {
+                "title": "One Click, All Archives Neatly Organized",
+                "description": "Managing institutional archives is now faster, more secure, and more practical. DigiArch transforms your millions of physical document piles into a smart digital ecosystem with high accountability.",
+                "imageUrl": "/assets/digiarch-mockup.png",
+                "fileUrl": "/uploads/digiarch.pdf",
+                "buttonText": "View DigiArch Brochure (PDF)"
+            }
+        },
+        {
+            "type": "FeaturesBlock",
+            "order": 2,
+            "data": {
+                "title": "Core Archive Digitalization Modules",
+                "features": [
+                    {
+                        "icon": "ScanLine",
+                        "title": "Smart Scanning & OCR",
+                        "desc": "It's more than just storing images. Our system utilizes Optical Character Recognition (OCR) to automatically recognize text within physical documents, making them fully searchable.",
+                        "mediaUrl": "/assets/features/digiarch/ocr-scanner.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "Tags",
+                        "title": "Structured Archive Foldering",
+                        "desc": "Organize and manage documents through a digital foldering system structured by category and work unit, ensuring archive maintenance is tidy, organized, and easily accessible whenever needed.",
+                        "mediaUrl": "/assets/features/digiarch/folderisasi.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "ShieldCheck",
+                        "title": "Strict Access Approval",
+                        "desc": "A multi-layered security system where management holds full authority to regulate access rights, review requests, and protect documents based on their confidentiality levels.",
+                        "mediaUrl": "/assets/features/digiarch/persetujuan-akses.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "Activity",
+                        "title": "Transparent Activity Logs",
+                        "desc": "Monitor the entire movement history of archives permanently and chronologically—from login sessions and access requests to document downloads.",
+                        "mediaUrl": "/assets/features/digiarch/log-aktivitas.png",
+                        "mediaType": "image"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "SocialProofBlock",
+            "order": 3,
+            "data": {
+                "title": "Trusted and Utilized By:",
+                "logos": [
+                    {
+                        "name": "Timika Regency",
+                        "imageUrl": "/assets/klien/kab-timika.png"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "VideoBlock",
+            "order": 4,
+            "data": {
+                "title": "E-Archive Digitalization Workflow",
+                "videoUrl": ""
+            }
+        },
+        {
+            "type": "FaqBlock",
+            "order": 5,
+            "data": {
+                "title": "Frequently Asked Questions (FAQ)",
+                "items": [
+                    {
+                        "q": "Is the use of E-Archive aligned with central government regulations?",
+                        "a": "Perfectly aligned. DigiArch's architecture is specifically designed to comply with Presidential Regulation No. 95 of 2018 concerning the Electronic-Based Government System (SPBE) and Law No. 43 of 2009 concerning Archiving."
+                    },
+                    {
+                        "q": "What if a disaster damages our institution's physical archive room?",
+                        "a": "That is the primary purpose of digitalization. Through DigiArch, all your physical documents are converted, indexed, and securely backed up on a server, ensuring 100% continuity of government information."
+                    },
+                    {
+                        "q": "Can any employee view confidential archive documents?",
+                        "a": "Absolutely not. We provide an 'Access Approval' module. Employees across departments requiring an archive must 'request' access within the system, and they can only open it if Management approves the request."
+                    }
+                ]
+            }
+        }
+    ]
+}

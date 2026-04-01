@@ -1,0 +1,98 @@
+{
+    "slug": "litera-en",
+    "name": "LITERA",
+    "tagline": "Literacy E-Learning Portal for Reading and Writing: Growing Through Literacy.",
+    "primaryColor": "#dc2626",
+    "blocks": [
+        {
+            "type": "HeroBlock",
+            "order": 1,
+            "data": {
+                "title": "Building Maturity Through Literacy",
+                "description": "LITERA places people, experiences, and the thinking process at the heart of learning. We help you cultivate clear thinking and ethical communication through the habits of reflective reading and writing.",
+                "imageUrl": "/assets/litera-mockup.png",
+                "fileUrl": "/uploads/brosur-litera.pdf",
+                "buttonText": "Open LITERA Module (PDF)"
+            }
+        },
+        {
+            "type": "FeaturesBlock",
+            "order": 2,
+            "data": {
+                "title": "The 3E Approach & Support Ecosystem",
+                "features": [
+                    {
+                        "icon": "BookOpen",
+                        "title": "Exercise",
+                        "desc": "Build fundamental literacy habits through structured reading and writing practices designed to consistently train linguistic sensitivity and mental clarity.",
+                        "mediaUrl": "/assets/features/litera/exercise.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "Compass",
+                        "title": "Experience",
+                        "desc": "Connecting texts with reality. A safe space for learners to reflect on their life experiences and transform them into meaningful writing.",
+                        "mediaUrl": "/assets/features/litera/experience.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "FlaskConical",
+                        "title": "Experiment",
+                        "desc": "A hub for creative freedom to test notions, formulate new ideas, and produce an authentic and accountable portfolio of literary works.",
+                        "mediaUrl": "/assets/features/litera/experiment.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "MessageSquareHeart",
+                        "title": "Reflective Tools & Mentoring",
+                        "desc": "Equipped with Digital Reflection Journals, Writing Templates, Reading Archives, and Live Sessions or Direct Chat with Mentors for personalized guidance.",
+                        "mediaUrl": "/assets/features/litera/tools-mentoring.png",
+                        "mediaType": "image"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "SocialProofBlock",
+            "order": 3,
+            "data": {
+                "title": "Initiated & Developed By:",
+                "logos": [
+                    {
+                        "name": "Geocitra",
+                        "imageUrl": "/logogeocitra.png"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "VideoBlock",
+            "order": 4,
+            "data": {
+                "title": "Understanding the 3E Learning Method",
+                "videoUrl": ""
+            }
+        },
+        {
+            "type": "FaqBlock",
+            "order": 5,
+            "data": {
+                "title": "Frequently Asked Questions",
+                "items": [
+                    {
+                        "q": "Is the primary focus of the LITERA platform only to obtain grades or certificates?",
+                        "a": "Absolutely not. LITERA is designed purely as a reflective learning tool, not merely for quantitative assessment. The primary focus is to cultivate thinking habits, linguistic sensitivity, and intellectual responsibility in learners."
+                    },
+                    {
+                        "q": "What is the role of the Mentor in this application?",
+                        "a": "The system provides a 'Contact Your Mentor' feature where learners can engage in chat or Live Sessions with expert mentors (such as Mr. Maman Suherman or the Kreativa team) to discuss progress, reflection journals, or obstacles in the literacy process."
+                    },
+                    {
+                        "q": "What support tools are provided within the system to assist the writing process?",
+                        "a": "LITERA is equipped with Digital Reflection Journals, Writing Templates, Reading Archives, and Literary Work Portfolios to guide participants step-by-step from the Exercise phase through to the Experiment phase."
+                    }
+                ]
+            }
+        }
+    ]
+}
