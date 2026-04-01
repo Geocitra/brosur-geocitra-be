@@ -25,7 +25,7 @@
                         "icon": "ScanLine",
                         "title": "Pemindaian & OCR Pintar",
                         "desc": "Bukan sekadar menyimpan gambar. Sistem kami menggunakan Optical Character Recognition (OCR) untuk mengenali teks di dalam dokumen fisik secara otomatis agar mudah dicari.",
-                        "mediaUrl": "/assets/features/digiarch/foldf",
+                        "mediaUrl": "/assets/features/digiarch/ocr-scanner.png",
                         "mediaType": "image"
                     },
                     {
@@ -46,7 +46,7 @@
                         "icon": "Activity",
                         "title": "Log Aktivitas Transparan",
                         "desc": "Pantau seluruh riwayat pergerakan arsip secara permanen dan kronologis, mulai dari siapa yang login, siapa yang meminta akses, hingga siapa yang mengunduh dokumen.",
-                        "mediaUrl": "/assets/features/digiarch/log-aktivitas.pnglog-aktivitas.pnglog-aktivitas.png",
+                        "mediaUrl": "/assets/features/digiarch/log-aktivitas.png",
                         "mediaType": "image"
                     }
                 ]
