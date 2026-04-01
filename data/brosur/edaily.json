@@ -1,62 +1,99 @@
 {
     "slug": "edaily",
     "name": "E-Daily Report",
-    "tagline": "Solusi Cerdas untuk Pelaporan Terintegrasi & Berbasis Lokasi.",
-    "primaryColor": "#10b981",
+    "tagline": "Transformasi Digital Kinerja Pegawai: Solusi Cerdas untuk Pelaporan Terintegrasi & Berbasis Lokasi.",
+    "primaryColor": "#2d5a27",
     "blocks": [
         {
             "type": "HeroBlock",
+            "order": 1,
             "data": {
                 "title": "Transformasi Digital Kinerja Pegawai",
-                "description": "Mengubah absensi menjadi kinerja berbasis bukti. E-Daily Report mentransformasikan pelaporan dari sekadar kehadiran fisik menjadi pemantauan output kerja yang tervalidasi dan terukur secara spasial.",
-                "imageUrl": "/assets/edaily-mockup.png"
+                "description": "E-Daily Report mentransformasikan pelaporan dari sekadar kehadiran fisik menjadi pemantauan output kerja yang tervalidasi dan terukur secara spasial.",
+                "imageUrl": "/assets/edaily-mockup.png",
+                "fileUrl": "/uploads/brosur-edaily.pdf",
+                "buttonText": "Buka Brosur Lengkap (PDF)"
             }
         },
         {
             "type": "FeaturesBlock",
+            "order": 2,
             "data": {
+                "title": "Mengubah Absensi Menjadi Kinerja Berbasis Bukti",
                 "features": [
                     {
                         "icon": "MapPin",
-                        "title": "Validasi Spasial & Tracking",
-                        "desc": "Menjawab tantangan birokrasi modern. Memantau ASN secara presisi saat Work From Home (WFH) atau tugas lapangan (WFA) dengan validasi lokasi real-time."
+                        "title": "Tracking Lokasi & Geotagging",
+                        "desc": "Pantau lokasi dan pergerakan pegawai secara real-time saat melakukan pekerjaan lapangan (WFA) atau WFH dengan tingkat akurasi pemetaan tinggi.",
+                        "mediaUrl": "/assets/features/edaily/tracking-lokasi.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "CheckCircle",
+                        "title": "Validasi Digital Berjenjang",
+                        "desc": "Alur persetujuan (approval) laporan secara digital oleh atasan langsung untuk memastikan kualitas output kerja sebelum diakumulasi ke dalam sistem.",
+                        "mediaUrl": "/assets/features/edaily/validasi-digital.png",
+                        "mediaType": "image"
                     },
                     {
                         "icon": "Target",
-                        "title": "Integrasi Target Daerah (SKP)",
-                        "desc": "Aktivitas harian (LKH) tidak berdiri sendiri. Sistem secara otomatis menghubungkan dan mengakumulasi pekerjaan harian menjadi capaian Sasaran Kinerja Pegawai."
+                        "title": "Terintegrasi Target SKP",
+                        "desc": "Aktivitas harian (LKH) tidak berdiri sendiri. Sistem otomatis menghubungkan dan mengakumulasikan pekerjaan harian menjadi capaian Sasaran Kinerja Pegawai (SKP).",
+                        "mediaUrl": "/assets/features/edaily/integrasi-skp.png",
+                        "mediaType": "image"
                     },
                     {
-                        "icon": "ShieldCheck",
-                        "title": "Jejak Digital Anti-Manipulasi",
-                        "desc": "Tinggalkan laporan manual yang rawan manipulasi. Kinerja diukur dengan angka pasti melalui Log Aktivitas permanen untuk transparansi total."
+                        "icon": "FileText",
+                        "title": "Jejak Digital & Skoring Objektif",
+                        "desc": "Dilengkapi Log Aktivitas permanen untuk mencegah manipulasi data, serta penilaian kuantitatif transparan seperti Approval Rate dan kalkulasi jam kerja.",
+                        "mediaUrl": "/assets/features/edaily/skoring-objektif.png",
+                        "mediaType": "image"
                     }
                 ]
             }
         },
         {
-            "type": "DownloadBlock",
+            "type": "SocialProofBlock",
+            "order": 3,
             "data": {
-                "buttonText": "Baca Detail Brosur",
-                "fileUrl": "/uploads/brosur-edaily.pdf"
+                "title": "Telah Digunakan Oleh Berbagai Instansi:",
+                "logos": [
+                    {
+                        "name": "Instansi Pemerintah A",
+                        "imageUrl": "/assets/klien/kab-timika.png"
+                    },
+                    {
+                        "name": "Instansi Pemerintah B",
+                        "imageUrl": "/assets/klien/kab-bandung-barat.png"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "VideoBlock",
+            "order": 4,
+            "data": {
+                "title": "Alur Kerja E-Daily Report",
+                "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
             }
         },
         {
             "type": "FaqBlock",
+            "order": 5,
             "data": {
-                "title": "Pertanyaan Umum",
+                "title": "Pertanyaan Umum (FAQ)",
                 "items": [
                     {
-                        "q": "Bagaimana sistem mencegah manipulasi data laporan?",
-                        "a": "E-Daily Report dilengkapi dengan fitur 'Jejak Digital Permanen'. Setiap log aktivitas—mulai dari login, input, hingga revisi laporan—tercatat dengan stempel waktu dan status yang tidak dapat dimodifikasi secara sepihak."
+                        "q": "Bagaimana E-Daily membedakan antara absensi biasa dan penilaian kinerja?",
+                        "a": "Berbeda dengan absensi sidik jari biasa, E-Daily mewajibkan pegawai untuk menginput Log Kegiatan Harian (LKH) beserta foto bukti dan titik koordinat, yang kemudian harus divalidasi oleh atasan untuk dihitung sebagai capaian kinerja."
                     },
                     {
-                        "q": "Apakah evaluasi kinerja masih bersifat subjektif?",
-                        "a": "Tidak. Sistem kami menghadirkan 'Skoring Objektif'. Kinerja pegawai dinilai secara otomatis berdasarkan persentase Approval Rate dari atasan dan rata-rata jam kerja harian yang terekam di sistem."
+                        "q": "Apakah sistem ini aman dari manipulasi lokasi (Fake GPS)?",
+                        "a": "Ya, aplikasi mobile E-Daily dilengkapi dengan sistem deteksi Mock Location dan Geo-fencing berlapis untuk menolak data jika terdeteksi penggunaan aplikasi pemalsu GPS."
                     },
                     {
-                        "q": "Bisakah atasan memberikan penolakan pada laporan harian?",
-                        "a": "Bisa. Alur sistem memiliki fitur 'Keputusan & Feedback' di mana atasan berhak menolak laporan jika bukti dan lokasi tidak sesuai, dan pegawai diwajibkan melakukan perbaikan yang jejaknya akan terekam."
+                        "q": "Bagaimana integrasinya dengan perhitungan TPP (Tambahan Penghasilan Pegawai)?",
+                        "a": "Sistem kami menghasilkan rekapitulasi data kuantitatif yang komprehensif, mulai dari jam kerja efektif hingga persentase persetujuan laporan, yang dapat diekspor langsung sebagai dasar perhitungan pencairan TPP yang objektif."
                     }
                 ]
             }

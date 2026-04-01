@@ -1,75 +1,95 @@
 {
     "slug": "digiarch",
-    "name": "DIGIARCH",
-    "tagline": "Sistem Informasi Manajemen Arsip Digital: Tertib Administrasi, Cepat Dalam Pencarian.",
-    "primaryColor": "#0f766e",
+    "name": "DigiArch (E-Arsip)",
+    "tagline": "Sistem Informasi Pengelolaan Arsip Digital yang Tertib, Aman, dan Terintegrasi.",
+    "primaryColor": "#d97706",
     "blocks": [
         {
             "type": "HeroBlock",
+            "order": 1,
             "data": {
-                "title": "Solusi Tata Kelola Arsip Modern & Terintegrasi",
-                "description": "DIGIARCH mengubah tumpukan dokumen fisik menjadi aset digital yang terorganisir. Memberikan kemudahan akses tanpa mengabaikan aspek keamanan dan retensi dokumen sesuai standar kearsipan nasional.",
-                "imageUrl": "/assets/digiarch-mockup.png"
+                "title": "Satu Klik, Semua Arsip Tersimpan Rapi",
+                "description": "Mengelola arsip instansi kini lebih cepat, aman, dan praktis. DigiArch mentransformasikan jutaan tumpukan dokumen fisik Anda menjadi ekosistem digital cerdas dengan akuntabilitas tinggi.",
+                "imageUrl": "/assets/digiarch-mockup.png",
+                "fileUrl": "/uploads/digiarch.pdf",
+                "buttonText": "Buka Brosur DigiArch (PDF)"
             }
         },
         {
             "type": "FeaturesBlock",
+            "order": 2,
             "data": {
-                "title": "Fitur Utama Manajemen Kearsipan",
+                "title": "Modul Inti Digitalisasi Arsip",
                 "features": [
                     {
-                        "icon": "Search",
-                        "title": "Pencarian Cepat & Cerdas",
-                        "desc": "Temukan dokumen dalam hitungan detik menggunakan sistem indexing multi-parameter (Nomor, Perihal, Tanggal, atau Kode Klasifikasi)."
+                        "icon": "ScanLine",
+                        "title": "Pemindaian & OCR Pintar",
+                        "desc": "Bukan sekadar menyimpan gambar. Sistem kami menggunakan Optical Character Recognition (OCR) untuk mengenali teks di dalam dokumen fisik secara otomatis agar mudah dicari.",
+                        "mediaUrl": "/assets/features/digiarch/foldf",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "Tags",
+                        "title": "Folderisasi Arsip Terstruktur",
+                        "desc": "Atur dan kelola dokumen melalui sistem folderisasi digital yang terstruktur berdasarkan kategori dan unit kerja, sehingga proses maintenance arsip lebih rapi, terorganisir, dan mudah diakses kapan pun dibutuhkan.",
+                        "mediaUrl": "/assets/features/digiarch/folderisasi.png",
+                        "mediaType": "image"
                     },
                     {
                         "icon": "ShieldCheck",
-                        "title": "Keamanan & Hak Akses",
-                        "desc": "Lindungi dokumen sensitif dengan pembatasan hak akses berjenjang. Hanya pengguna berwenang yang dapat melihat, mengunduh, atau menghapus arsip."
+                        "title": "Persetujuan Akses Ketat",
+                        "desc": "Sistem keamanan berlapis di mana pimpinan berwenang penuh untuk mengatur hak akses, meninjau permintaan, dan melindungi dokumen berdasarkan tingkat kerahasiaannya.",
+                        "mediaUrl": "/assets/features/digiarch/persetujuan-akses.png",
+                        "mediaType": "image"
                     },
                     {
-                        "icon": "CloudUpload",
-                        "title": "Digitalisasi & OCR",
-                        "desc": "Konversi dokumen fisik ke digital dengan dukungan teknologi OCR untuk pembacaan teks otomatis, memudahkan proses verifikasi data."
-                    },
+                        "icon": "Activity",
+                        "title": "Log Aktivitas Transparan",
+                        "desc": "Pantau seluruh riwayat pergerakan arsip secara permanen dan kronologis, mulai dari siapa yang login, siapa yang meminta akses, hingga siapa yang mengunduh dokumen.",
+                        "mediaUrl": "/assets/features/digiarch/log-aktivitas.pnglog-aktivitas.pnglog-aktivitas.png",
+                        "mediaType": "image"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "SocialProofBlock",
+            "order": 3,
+            "data": {
+                "title": "Telah Dipercaya & Digunakan Oleh:",
+                "logos": [
                     {
-                        "icon": "History",
-                        "title": "Manajemen Retensi Arsip",
-                        "desc": "Pantau siklus hidup dokumen secara otomatis, mulai dari arsip aktif hingga jadwal pemusnahan sesuai Jadwal Retensi Arsip (JRA)."
+                        "name": "Kabupaten Timika",
+                        "imageUrl": "/assets/klien/kab-timika.png"
                     }
                 ]
             }
         },
         {
             "type": "VideoBlock",
+            "order": 4,
             "data": {
-                "title": "Demo Sistem DIGIARCH",
+                "title": "Alur Kerja Digitalisasi E-Arsip",
                 "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
             }
         },
         {
-            "type": "DownloadBlock",
-            "data": {
-                "buttonText": "Unduh Brosur DIGIARCH",
-                "fileUrl": "/uploads/digiarch.pdf"
-            }
-        },
-        {
             "type": "FaqBlock",
+            "order": 5,
             "data": {
-                "title": "Hal yang Sering Ditanyakan",
+                "title": "Pertanyaan Umum (FAQ)",
                 "items": [
                     {
-                        "q": "Apakah DIGIARCH mendukung penyimpanan dalam jumlah besar?",
-                        "a": "Ya. Sistem dibangun dengan arsitektur penyimpanan berbasis cloud atau on-premise yang scalable, mampu menangani jutaan dokumen tanpa penurunan performa."
+                        "q": "Apakah penggunaan E-Arsip ini sejalan dengan regulasi pemerintah pusat?",
+                        "a": "Sangat sejalan. Arsitektur DigiArch dirancang secara khusus untuk mematuhi Peraturan Presiden No. 95 Tahun 2018 tentang Sistem Pemerintah Berbasis Elektronik (SPBE) serta UU No. 43 Tahun 2009 tentang Kearsipan."
                     },
                     {
-                        "q": "Bagaimana jika server mengalami kendala?",
-                        "a": "DIGIARCH dilengkapi fitur Backup & Disaster Recovery otomatis untuk memastikan data arsip Anda tetap aman dan dapat dipulihkan kapan saja."
+                        "q": "Bagaimana jika terjadi bencana yang merusak ruang arsip fisik instansi kami?",
+                        "a": "Itulah fungsi utama digitalisasi. Melalui DigiArch, seluruh dokumen fisik Anda telah dikonversi, diindeks, dan memiliki backup digital yang aman di dalam server, sehingga keberlanjutan informasi pemerintahan tetap terjamin 100%."
                     },
                     {
-                        "q": "Apakah sistem ini sesuai dengan regulasi kearsipan pemerintah?",
-                        "a": "Benar. Struktur indexing dan klasifikasi arsip dalam DIGIARCH dapat disesuaikan dengan standar regulasi kearsipan daerah maupun nasional yang berlaku."
+                        "q": "Apakah sembarang pegawai bisa melihat dokumen arsip rahasia?",
+                        "a": "Sama sekali tidak. Kami menyediakan modul 'Persetujuan Akses'. Pegawai lintas bidang yang membutuhkan sebuah arsip harus 'meminta' (request) akses di dalam sistem, dan hanya bisa membukanya jika Pimpinan menyetujui request tersebut."
                     }
                 ]
             }

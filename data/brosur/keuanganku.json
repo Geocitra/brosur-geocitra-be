@@ -6,58 +6,83 @@
     "blocks": [
         {
             "type": "HeroBlock",
+            "order": 1,
             "data": {
                 "title": "Kesejahteraan Finansial Karyawan Dimulai dari Sini",
                 "description": "Solusi digital eksklusif berstandar Enterprise untuk membantu karyawan melakukan self-assessment kesehatan finansial, mengelola arus kas, dan merencanakan masa depan secara mandiri.",
-                "imageUrl": "/assets/keuanganku-mockup.png"
+                "imageUrl": "/assets/keuanganku-mockup.png",
+                "fileUrl": "/uploads/brosur-keuanganku.pdf",
+                "buttonText": "Buka Brosur Lengkap (PDF)"
             }
         },
         {
             "type": "FeaturesBlock",
+            "order": 2,
             "data": {
                 "title": "Arsitektur & Modul Utama",
                 "features": [
                     {
+                        "icon": "HeartPulse",
                         "title": "Cek Kesehatan Keuangan",
-                        "description": "Mendiagnosis status keuangan (Sehat, Waspada, Risiko) secara real-time berdasarkan cashflow dan neraca, lengkap dengan skor finansial (0-100) dan rekomendasi otomatis."
+                        "desc": "Mendiagnosis status keuangan (Sehat, Waspada, Risiko) secara real-time berdasarkan cashflow dan neraca, lengkap dengan skor finansial (0-100) dan rekomendasi otomatis.",
+                        "mediaUrl": "/assets/features/keuanganku/cek-kesehatan.png",
+                        "mediaType": "image"
                     },
                     {
+                        "icon": "Calculator",
                         "title": "Kalkulator Perencanaan Mandiri",
-                        "description": "Modul simulasi matematis presisi untuk membantu merencanakan Dana Pendidikan Anak, Persiapan Hari Tua (Pensiun), hingga Rencana Beli Rumah."
+                        "desc": "Modul simulasi matematis presisi untuk membantu merencanakan Dana Pendidikan Anak, Persiapan Hari Tua (Pensiun), hingga Rencana Beli Rumah.",
+                        "mediaUrl": "/assets/features/keuanganku/kalkulator.png",
+                        "mediaType": "image"
                     },
                     {
+                        "icon": "History",
                         "title": "History Persistence (Snapshot)",
-                        "description": "Sistem menyimpan setiap hasil analisa sebagai record baru. Data lama tidak pernah ditimpa (no overwrite), memungkinkan pelacakan progres historis yang akurat."
+                        "desc": "Sistem menyimpan setiap hasil analisa sebagai record baru. Data lama tidak pernah ditimpa (no overwrite), memungkinkan pelacakan progres historis yang akurat.",
+                        "mediaUrl": "/assets/features/keuanganku/history.png",
+                        "mediaType": "image"
                     },
                     {
+                        "icon": "BookOpen",
                         "title": "Modul Literasi & Edukasi",
-                        "description": "Materi pembelajaran terstruktur seperti 'Mindset Keuangan' dan 'Mengelola Cicilan Sehat' untuk meningkatkan pemahaman dan kedewasaan finansial karyawan."
+                        "desc": "Materi pembelajaran terstruktur seperti 'Mindset Keuangan' dan 'Mengelola Cicilan Sehat' untuk meningkatkan pemahaman dan kedewasaan finansial karyawan.",
+                        "mediaUrl": "/assets/features/keuanganku/edukasi.png",
+                        "mediaType": "image"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "SocialProofBlock",
+            "order": 3,
+            "data": {
+                "title": "Dikembangkan Bersama Oleh:",
+                "logos": [
+                    {
+                        "name": "MAX PRO Sinergy",
+                        "imageUrl": "/assets/klien/maxipro.png"
+                    },
+                    {
+                        "name": "Geocitra",
+                        "imageUrl": "/logogeocitra.png"
                     }
                 ]
             }
         },
         {
             "type": "VideoBlock",
+            "order": 4,
             "data": {
                 "title": "Panduan Penggunaan KeuanganKu",
-                "videoUrl": "https://www.youtube.com/embed/your-video-id-here",
-                "thumbnailUrl": "/assets/keuanganku-video-thumb.png"
-            }
-        },
-        {
-            "type": "DownloadBlock",
-            "data": {
-                "title": "Eksplorasi Spesifikasi Teknis",
-                "description": "Pelajari lebih lanjut mengenai arsitektur sistem, business constraints, dan proposal adopsi KeuanganKu untuk Corporate melalui dokumen resmi kami.",
-                "fileUrl": "/uploads/brosur-keuanganku.pdf",
-                "fileName": "Spesifikasi_Keuanganku_Corporate.pdf"
+                "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
             }
         },
         {
             "type": "FaqBlock",
+            "order": 5,
             "data": {
                 "title": "System Constraints & FAQ",
-                "faqs": [
+                "items": [
                     {
                         "q": "Apakah data finansial pribadi saya bisa dilihat oleh atasan atau Manajemen Perusahaan?",
                         "a": "Tidak. Sistem mengimplementasikan Business Constraints tingkat tinggi terkait privasi data. Administrator sistem dan Manajemen dilarang keras serta tidak memiliki fitur untuk melihat data detail analisa per individu (View by NIP/ID Karyawan). Akses admin murni terbatas pada manajemen akun (Enable/Disable)."
