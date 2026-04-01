@@ -1,78 +1,87 @@
 "use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || (function () {
+    var ownKeys = function(o) {
+        ownKeys = Object.getOwnPropertyNames || function (o) {
+            var ar = [];
+            for (var k in o) if (Object.prototype.hasOwnProperty.call(o, k)) ar[ar.length] = k;
+            return ar;
+        };
+        return ownKeys(o);
+    };
+    return function (mod) {
+        if (mod && mod.__esModule) return mod;
+        var result = {};
+        if (mod != null) for (var k = ownKeys(mod), i = 0; i < k.length; i++) if (k[i] !== "default") __createBinding(result, mod, k[i]);
+        __setModuleDefault(result, mod);
+        return result;
+    };
+})();
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = seed;
-const client_1 = require("@prisma/client");
-const prisma = new client_1.PrismaClient();
+const fs = __importStar(require("fs"));
+const path = __importStar(require("path"));
 async function seed(prisma) {
-    console.log('🌱 Memulai proses seeding data Showcase...');
-    await prisma.productShowcase.upsert({
-        where: { slug: 'edaily' },
-        update: {},
-        create: {
-            slug: 'edaily',
-            name: 'E-Daily Report',
-            tagline: 'Digitalisasi Pelaporan Harian dengan Efisiensi Tinggi',
-            primaryColor: '#2d5a27',
-            blocks: [
-                {
-                    type: 'HERO_BLOCK',
-                    order: 1,
-                    data: {
-                        title: 'E-Daily Report',
-                        description: 'Tingkatkan akurasi dan kecepatan pelaporan tim lapangan Anda.',
-                        imageUrl: '/assets/edaily-mockup.png'
-                    }
+    console.log('🌱 Memulai proses seeding data Showcase secara dinamis...');
+    const dataDir = path.join(process.cwd(), 'data', 'brosur');
+    if (!fs.existsSync(dataDir)) {
+        console.error(`❌ Direktori tidak ditemukan: ${dataDir}`);
+        return;
+    }
+    const files = fs.readdirSync(dataDir);
+    const jsonFiles = files.filter(file => file.endsWith('.json'));
+    if (jsonFiles.length === 0) {
+        console.log('⚠️ Tidak ada file .json yang ditemukan di direktori data/brosur.');
+        return;
+    }
+    console.log(`📦 Ditemukan ${jsonFiles.length} file konfigurasi brosur. Memproses data...`);
+    for (const file of jsonFiles) {
+        const filePath = path.join(dataDir, file);
+        const fileContent = fs.readFileSync(filePath, 'utf-8');
+        try {
+            const payload = JSON.parse(fileContent);
+            const { slug, name, tagline, primaryColor, blocks } = payload;
+            if (!slug) {
+                console.warn(`⚠️ [SKIP] File ${file} dilewati karena tidak memiliki property 'slug'.`);
+                continue;
+            }
+            console.log(`🔄 Meng-upsert data aplikasi: ${name} (${slug})`);
+            await prisma.productShowcase.upsert({
+                where: { slug: slug },
+                update: {
+                    name,
+                    tagline,
+                    primaryColor,
+                    blocks
                 },
-                {
-                    type: 'FEATURE_BLOCK',
-                    order: 2,
-                    data: {
-                        features: [
-                            { icon: 'Zap', title: 'Real-time', desc: 'Pantau laporan detik ini juga.' },
-                            { icon: 'WifiOff', title: 'Offline Mode', desc: 'Tetap bisa input walau tanpa sinyal.' }
-                        ]
-                    }
-                },
-                {
-                    type: 'DOWNLOAD_BLOCK',
-                    order: 3,
-                    data: {
-                        buttonText: 'Download Brosur E-Daily (PDF)',
-                        fileUrl: '/uploads/brosur-edaily.pdf'
-                    }
+                create: {
+                    slug,
+                    name,
+                    tagline,
+                    primaryColor,
+                    blocks
                 }
-            ]
+            });
         }
-    });
-    await prisma.productShowcase.upsert({
-        where: { slug: 'rekas' },
-        update: {},
-        create: {
-            slug: 'rekas',
-            name: 'Rekas App',
-            tagline: 'Sistem Retribusi Sampah Terintegrasi',
-            primaryColor: '#1d4ed8',
-            blocks: [
-                {
-                    type: 'HERO_BLOCK',
-                    order: 1,
-                    data: {
-                        title: 'Rekas',
-                        description: 'Kelola retribusi dengan transparan dan akuntabel.',
-                        imageUrl: '/assets/rekas-mockup.png'
-                    }
-                },
-                {
-                    type: 'DOWNLOAD_BLOCK',
-                    order: 2,
-                    data: {
-                        buttonText: 'Unduh Spesifikasi Teknis',
-                        fileUrl: '/uploads/brosur-rekas.pdf'
-                    }
-                }
-            ]
+        catch (error) {
+            console.error(`❌ Gagal memproses file ${file}:`, error instanceof Error ? error.message : error);
         }
-    });
-    console.log('✅ Seeding berhasil. Database siap digunakan!');
+    }
+    console.log('✅ Seeding Showcase selesai!');
 }
 //# sourceMappingURL=01_showcase.js.map

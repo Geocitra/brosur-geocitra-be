@@ -1,81 +1,78 @@
 import { PrismaClient } from '@prisma/client';
-
-const prisma = new PrismaClient();
+import * as fs from 'fs';
+import * as path from 'path';
 
 export default async function seed(prisma: PrismaClient) {
-    console.log('🌱 Memulai proses seeding data Showcase...');
+    console.log('🌱 Memulai proses seeding data Showcase secara dinamis...');
 
-    // 1. Data E-Daily (Formal & Hijau)
-    await prisma.productShowcase.upsert({
-        where: { slug: 'edaily' },
-        update: {},
-        create: {
-            slug: 'edaily',
-            name: 'E-Daily Report',
-            tagline: 'Digitalisasi Pelaporan Harian dengan Efisiensi Tinggi',
-            primaryColor: '#2d5a27', // Hijau Geocitra
-            blocks: [
-                {
-                    type: 'HERO_BLOCK',
-                    order: 1,
-                    data: {
-                        title: 'E-Daily Report',
-                        description: 'Tingkatkan akurasi dan kecepatan pelaporan tim lapangan Anda.',
-                        imageUrl: '/assets/edaily-mockup.png'
-                    }
+    // 1. Definisikan absolute path ke direktori data/brosur
+    // process.cwd() menunjuk ke root directory dari eksekusi backend (brosur-geocitra-be)
+    const dataDir = path.join(process.cwd(), 'data', 'brosur');
+
+    // 2. Validasi eksistensi direktori
+    if (!fs.existsSync(dataDir)) {
+        console.error(`❌ Direktori tidak ditemukan: ${dataDir}`);
+        return;
+    }
+
+    // 3. Baca semua isi direktori
+    const files = fs.readdirSync(dataDir);
+
+    // 4. Filter hanya file berekstensi .json (menghindari hidden file atau ekstensi lain)
+    const jsonFiles = files.filter(file => file.endsWith('.json'));
+
+    if (jsonFiles.length === 0) {
+        console.log('⚠️ Tidak ada file .json yang ditemukan di direktori data/brosur.');
+        return;
+    }
+
+    console.log(`📦 Ditemukan ${jsonFiles.length} file konfigurasi brosur. Memproses data...`);
+
+    // 5. Iterasi dan Upsert setiap file JSON
+    for (const file of jsonFiles) {
+        const filePath = path.join(dataDir, file);
+        const fileContent = fs.readFileSync(filePath, 'utf-8');
+
+        try {
+            // Parsing konten string menjadi JSON Object
+            const payload = JSON.parse(fileContent);
+
+            // Destructuring data untuk memetakan ke Prisma model
+            // Asumsi kontrak JSON yang baku: slug, name, tagline, primaryColor, blocks
+            const { slug, name, tagline, primaryColor, blocks } = payload;
+
+            // Proteksi: Pastikan slug ada, karena ini adalah primary/unique key
+            if (!slug) {
+                console.warn(`⚠️ [SKIP] File ${file} dilewati karena tidak memiliki property 'slug'.`);
+                continue;
+            }
+
+            console.log(`🔄 Meng-upsert data aplikasi: ${name} (${slug})`);
+
+            // 6. Eksekusi Upsert (Update jika ada, Insert jika belum ada)
+            await prisma.productShowcase.upsert({
+                where: { slug: slug },
+                update: {
+                    name,
+                    tagline,
+                    primaryColor,
+                    // Karena blocks bersifat JSON di skema database, kita bisa langsung melempar array object-nya
+                    blocks
                 },
-                {
-                    type: 'FEATURE_BLOCK',
-                    order: 2,
-                    data: {
-                        features: [
-                            { icon: 'Zap', title: 'Real-time', desc: 'Pantau laporan detik ini juga.' },
-                            { icon: 'WifiOff', title: 'Offline Mode', desc: 'Tetap bisa input walau tanpa sinyal.' }
-                        ]
-                    }
-                },
-                {
-                    type: 'DOWNLOAD_BLOCK',
-                    order: 3,
-                    data: {
-                        buttonText: 'Download Brosur E-Daily (PDF)',
-                        fileUrl: '/uploads/brosur-edaily.pdf'
-                    }
+                create: {
+                    slug,
+                    name,
+                    tagline,
+                    primaryColor,
+                    blocks
                 }
-            ]
-        }
-    });
+            });
 
-    // 2. Data Rekas (Teknis & Biru)
-    await prisma.productShowcase.upsert({
-        where: { slug: 'rekas' },
-        update: {},
-        create: {
-            slug: 'rekas',
-            name: 'Rekas App',
-            tagline: 'Sistem Retribusi Sampah Terintegrasi',
-            primaryColor: '#1d4ed8', // Biru Teknis
-            blocks: [
-                {
-                    type: 'HERO_BLOCK',
-                    order: 1,
-                    data: {
-                        title: 'Rekas',
-                        description: 'Kelola retribusi dengan transparan dan akuntabel.',
-                        imageUrl: '/assets/rekas-mockup.png'
-                    }
-                },
-                {
-                    type: 'DOWNLOAD_BLOCK',
-                    order: 2,
-                    data: {
-                        buttonText: 'Unduh Spesifikasi Teknis',
-                        fileUrl: '/uploads/brosur-rekas.pdf'
-                    }
-                }
-            ]
+        } catch (error) {
+            // Tangkap error jika file JSON tidak valid secara syntax
+            console.error(`❌ Gagal memproses file ${file}:`, error instanceof Error ? error.message : error);
         }
-    });
+    }
 
-    console.log('✅ Seeding berhasil. Database siap digunakan!');
+    console.log('✅ Seeding Showcase selesai!');
 }

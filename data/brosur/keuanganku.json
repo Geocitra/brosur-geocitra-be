@@ -59,16 +59,16 @@
                 "title": "System Constraints & FAQ",
                 "faqs": [
                     {
-                        "question": "Apakah data finansial pribadi saya bisa dilihat oleh atasan atau Manajemen Perusahaan?",
-                        "answer": "Tidak. Sistem mengimplementasikan Business Constraints tingkat tinggi terkait privasi data. Administrator sistem dan Manajemen dilarang keras serta tidak memiliki fitur untuk melihat data detail analisa per individu (View by NIP/ID Karyawan). Akses admin murni terbatas pada manajemen akun (Enable/Disable)."
+                        "q": "Apakah data finansial pribadi saya bisa dilihat oleh atasan atau Manajemen Perusahaan?",
+                        "a": "Tidak. Sistem mengimplementasikan Business Constraints tingkat tinggi terkait privasi data. Administrator sistem dan Manajemen dilarang keras serta tidak memiliki fitur untuk melihat data detail analisa per individu (View by NIP/ID Karyawan). Akses admin murni terbatas pada manajemen akun (Enable/Disable)."
                     },
                     {
-                        "question": "Bagaimana jika saya membuka aplikasi di area operasional lapangan tanpa sinyal internet?",
-                        "answer": "Aplikasi dirancang dengan Off-line Capability (PWA). Anda tetap bisa membuka aplikasi dan melihat data riwayat (cache) terakhir Anda meskipun koneksi internet terputus. Namun, input data baru tetap memerlukan koneksi jaringan aktif."
+                        "q": "Bagaimana jika saya membuka aplikasi di area operasional lapangan tanpa sinyal internet?",
+                        "a": "Aplikasi dirancang dengan Off-line Capability (PWA). Anda tetap bisa membuka aplikasi dan melihat data riwayat (cache) terakhir Anda meskipun koneksi internet terputus. Namun, input data baru tetap memerlukan koneksi jaringan aktif."
                     },
                     {
-                        "question": "Apakah aplikasi ini akan merekomendasikan produk asuransi atau investasi dari pihak ketiga?",
-                        "answer": "Tidak. Aplikasi ini memiliki konstrain netralitas. Sistem tidak boleh dan tidak akan menampilkan nama produk asuransi atau investasi spesifik. Rekomendasi yang diberikan murni berupa saran generik (misal: 'Tingkatkan dana darurat' atau 'Pertimbangkan instrumen pasar uang')."
+                        "q": "Apakah aplikasi ini akan merekomendasikan produk asuransi atau investasi dari pihak ketiga?",
+                        "a": "Tidak. Aplikasi ini memiliki konstrain netralitas. Sistem tidak boleh dan tidak akan menampilkan nama produk asuransi atau investasi spesifik. Rekomendasi yang diberikan murni berupa saran generik (misal: 'Tingkatkan dana darurat' atau 'Pertimbangkan instrumen pasar uang')."
                     }
                 ]
             }

@@ -9,7 +9,9 @@
             "data": {
                 "title": "Sistem Elektronik Retribusi Persampahan Modern",
                 "description": "REKAS mendigitalisasi seluruh proses retribusi dari hulu ke hilir untuk meningkatkan efisiensi kerja Staff Dinas, UPT, hingga Petugas Penagih di lapangan.",
-                "imageUrl": "/assets/rekas-mockup.png"
+                "imageUrl": "/assets/rekas-mockup.png",
+                "fileUrl": "/uploads/brosur-rekas.pdf",
+                "buttonText": "Buka Brosur Lengkap (PDF)"
             }
         },
         {
@@ -20,22 +22,50 @@
                     {
                         "icon": "Database",
                         "title": "Pendataan Subjek & NPWRD",
-                        "desc": "Input data wajib retribusi secara digital dan penerbitan kartu NPWRD instan untuk Rumah Tangga, Komersial, maupun Industri."
+                        "desc": "Input data wajib retribusi secara digital dan penerbitan kartu NPWRD instan untuk Rumah Tangga, Komersial, maupun Industri.",
+                        "mediaUrl": "/assets/features/rekas/pendataan.png",
+                        "mediaType": "image"
                     },
                     {
                         "icon": "FileCheck",
                         "title": "Penetapan SKRD & SSRD",
-                        "desc": "Sistem otomatis menghitung tarif dan mencetak Surat Ketetapan Retribusi Daerah serta menerbitkan Bukti Setoran Digital (SSRD) seketika."
+                        "desc": "Sistem otomatis menghitung tarif dan mencetak Surat Ketetapan Retribusi Daerah serta menerbitkan Bukti Setoran Digital (SSRD) seketika.",
+                        "mediaUrl": "/assets/features/rekas/penetapan.png",
+                        "mediaType": "image"
                     },
                     {
                         "icon": "Smartphone",
                         "title": "Penagihan & Monitoring Mobile",
-                        "desc": "Petugas lapangan dilengkapi aplikasi mobile untuk memantau tagihan dan melakukan validasi pembayaran secara real-time."
+                        "desc": "Petugas lapangan dilengkapi aplikasi mobile untuk memantau tagihan dan melakukan validasi pembayaran secara real-time.",
+                        "mediaUrl": "/assets/features/rekas/penagihan-mobile.png",
+                        "mediaType": "image"
                     },
                     {
                         "icon": "BarChart3",
                         "title": "Dashboard Monitoring Dinas",
-                        "desc": "Pantau pencapaian target retribusi dan rekapitulasi keuangan harian tanpa perlu rekap manual yang rawan kesalahan."
+                        "desc": "Pantau pencapaian target retribusi dan rekapitulasi keuangan harian tanpa perlu rekap manual yang rawan kesalahan.",
+                        "mediaUrl": "/assets/features/rekas/dashboard.png",
+                        "mediaType": "image"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "SocialProofBlock",
+            "data": {
+                "title": "Telah Dipercaya & Digunakan Oleh:",
+                "logos": [
+                    {
+                        "name": "Kabupaten Bogor",
+                        "imageUrl": "/assets/klien/kab-bogor.png"
+                    },
+                    {
+                        "name": "Kabupaten Timika",
+                        "imageUrl": "/assets/klien/kab-timika.png"
+                    },
+                    {
+                        "name": "Kabupaten Bandung Barat",
+                        "imageUrl": "/assets/klien/kab-bandung-barat.png"
                     }
                 ]
             }
@@ -45,13 +75,6 @@
             "data": {
                 "title": "Alur Kerja Digital REKAS",
                 "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
-            }
-        },
-        {
-            "type": "DownloadBlock",
-            "data": {
-                "buttonText": "Unduh Brosur Rekas",
-                "fileUrl": "/uploads/brosur-rekas.pdf"
             }
         },
         {
