@@ -2,7 +2,6 @@
   "compilerOptions": {
     "module": "nodenext",
     "moduleResolution": "nodenext",
-    "ignoreDeprecations": "6.0",
     "resolvePackageJsonExports": true,
     "esModuleInterop": true,
     "isolatedModules": true,
@@ -14,7 +13,12 @@
     "target": "ES2023",
     "sourceMap": true,
     "outDir": "./dist",
-    "baseUrl": "./", // Error berasal dari sini
+    "baseUrl": "./",
+    "paths": {
+      "*": [
+        "*"
+      ]
+    },
     "incremental": true,
     "skipLibCheck": true,
     "strictNullChecks": true,
