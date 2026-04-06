@@ -70,16 +70,46 @@
             }
         },
         {
-            "type": "VideoBlock",
+            "type": "AdvantagesBlock",
             "order": 4,
             "data": {
+                "title": "Membangun Ketahanan Finansial yang Kokoh",
+                "subtitle": "Keunggulan KeuanganKu",
+                "items": [
+                    {
+                        "icon": "ShieldCheck",
+                        "title": "Privasi Data Mutlak",
+                        "desc": "Kerahasiaan finansial karyawan adalah prioritas. Manajemen atau HR tidak dapat melihat detail data individu; data murni milik karyawan sepenuhnya."
+                    },
+                    {
+                        "icon": "Scale",
+                        "title": "Objektivitas & Netralitas",
+                        "desc": "Sistem tidak berafiliasi dengan produk bank atau asuransi mana pun. Rekomendasi diberikan secara murni berdasarkan diagnosa matematis yang objektif."
+                    },
+                    {
+                        "icon": "Target",
+                        "title": "Diagnosa Presisi",
+                        "desc": "Dapatkan gambaran kesehatan keuangan nyata melalui skor 0-100 dan status risiko yang divalidasi berdasarkan algoritma perencanaan keuangan standar global."
+                    },
+                    {
+                        "icon": "Zap",
+                        "title": "Akses Fleksibel (PWA)",
+                        "desc": "Dapat diakses kapan saja dan di mana saja layaknya aplikasi mobile tanpa perlu mengunduh di PlayStore, bahkan dalam kondisi sinyal internet yang tidak stabil."
+                    }
+                ]
+            }
+        },
+        {
+            "type": "VideoBlock",
+            "order": 5,
+            "data": {
                 "title": "Panduan Penggunaan KeuanganKu",
-                "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+                "videoUrl": ""
             }
         },
         {
             "type": "FaqBlock",
-            "order": 5,
+            "order": 6,
             "data": {
                 "title": "System Constraints & FAQ",
                 "items": [

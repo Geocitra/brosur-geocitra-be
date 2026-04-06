@@ -70,8 +70,38 @@
             }
         },
         {
-            "type": "VideoBlock",
+            "type": "AdvantagesBlock",
             "order": 4,
+            "data": {
+                "title": "Building Solid Financial Resilience",
+                "subtitle": "KeuanganKu Key Advantages",
+                "items": [
+                    {
+                        "icon": "ShieldCheck",
+                        "title": "Absolute Data Privacy",
+                        "desc": "Employee financial confidentiality is our priority. Management or HR cannot access individual data details; the data belongs entirely to the employee."
+                    },
+                    {
+                        "icon": "Scale",
+                        "title": "Objectivity & Neutrality",
+                        "desc": "The system is not affiliated with any bank or insurance products. Recommendations are provided purely based on objective mathematical diagnosis."
+                    },
+                    {
+                        "icon": "Target",
+                        "title": "Precision Diagnosis",
+                        "desc": "Get a real picture of financial health through 0-100 scores and risk status validated by global standard financial planning algorithms."
+                    },
+                    {
+                        "icon": "Zap",
+                        "title": "Flexible Access (PWA)",
+                        "desc": "Access anytime, anywhere like a mobile app without downloading from the PlayStore, even with unstable internet connections."
+                    }
+                ]
+            }
+        },
+        {
+            "type": "VideoBlock",
+            "order": 5,
             "data": {
                 "title": "KeuanganKu Usage Guide",
                 "videoUrl": ""
@@ -79,7 +109,7 @@
         },
         {
             "type": "FaqBlock",
-            "order": 5,
+            "order": 6,
             "data": {
                 "title": "System Constraints & FAQ",
                 "items": [

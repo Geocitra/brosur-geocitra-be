@@ -64,18 +64,47 @@
                     }
                 ]
             }
+        },{
+            "type": "AdvantagesBlock",
+            "order": 4,
+            "data": {
+                "title": "Lebih Dari Sekadar Membaca & Menulis",
+                "subtitle": "Keunggulan LITERA",
+                "items": [
+                    {
+                        "icon": "BrainCircuit",
+                        "title": "Kedewasaan Berpikir",
+                        "desc": "LITERA fokus pada pembentukan karakter dan kejernihan berpikir reflektif, bukan sekadar mengejar nilai atau angka kuantitatif."
+                    },
+                    {
+                        "icon": "Layers",
+                        "title": "Metodologi 3E Terpadu",
+                        "desc": "Alur belajar sistematis mulai dari Exercise (Latihan), Experience (Pengalaman), hingga Experiment (Eksperimen) untuk hasil yang autentik."
+                    },
+                    {
+                        "icon": "Users",
+                        "title": "Pendampingan Mentor Ahli",
+                        "desc": "Akses langsung untuk berdiskusi dengan mentor literasi berpengalaman guna mengasah kepekaan bahasa dan tanggung jawab intelektual."
+                    },
+                    {
+                        "icon": "Library",
+                        "title": "Ekosistem Literasi Digital",
+                        "desc": "Dilengkapi Jurnal Refleksi, Template Menulis, dan Arsip Bacaan terintegrasi untuk mendukung progres belajar yang terukur."
+                    }
+                ]
+            }
         },
         {
             "type": "VideoBlock",
-            "order": 4,
+            "order": 5,
             "data": {
                 "title": "Mengenal Metode Pembelajaran 3E",
-                "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+                "videoUrl": ""
             }
         },
         {
             "type": "FaqBlock",
-            "order": 5,
+            "order": 6,
             "data": {
                 "title": "Pertanyaan Seputar Program Pembelajaran",
                 "items": [

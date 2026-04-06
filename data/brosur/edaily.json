@@ -53,18 +53,31 @@
             }
         },
         {
-            "type": "SocialProofBlock",
+            "type": "AdvantagesBlock",
             "order": 3,
             "data": {
-                "title": "Telah Digunakan Oleh Berbagai Instansi:",
-                "logos": [
+                "title": "Dampak Strategis bagi Birokrasi Modern",
+                "subtitle": "Evidence-Based Governance",
+                "items": [
                     {
-                        "name": "Instansi Pemerintah A",
-                        "imageUrl": "/assets/klien/kab-timika.png"
+                        "icon": "ShieldCheck",
+                        "title": "Akuntabilitas Kerja Nyata",
+                        "desc": "Mengubah budaya absensi formalitas menjadi pelaporan berbasis bukti (foto & dokumen) yang tervalidasi secara objektif."
                     },
                     {
-                        "name": "Instansi Pemerintah B",
-                        "imageUrl": "/assets/klien/kab-bandung-barat.png"
+                        "icon": "MapPin",
+                        "title": "Pengawasan WFH/WFA Spasial",
+                        "desc": "Solusi mutlak untuk memantau ASN saat penugasan lapangan atau kerja jarak jauh melalui visualisasi sebaran lokasi (GPS/GIS)."
+                    },
+                    {
+                        "icon": "Target",
+                        "title": "Terhubung Langsung ke SKP",
+                        "desc": "Aktivitas harian otomatis terakumulasi menjadi capaian Sasaran Kinerja Pegawai (SKP), memastikan setiap pekerjaan berkontribusi pada target organisasi."
+                    },
+                    {
+                        "icon": "Activity",
+                        "title": "Jejak Digital & Audit Trail",
+                        "desc": "Seluruh riwayat pelaporan tersimpan dalam sistem log permanen yang terenkripsi, menjamin transparansi total dan mencegah manipulasi data."
                     }
                 ]
             }

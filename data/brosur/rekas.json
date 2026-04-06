@@ -51,21 +51,31 @@
             }
         },
         {
-            "type": "SocialProofBlock",
+            "type": "AdvantagesBlock",
+            "order": 3,
             "data": {
-                "title": "Telah Dipercaya & Digunakan Oleh:",
-                "logos": [
+                "title": "Solusi Strategis Optimalisasi PAD",
+                "subtitle": "Keunggulan Sistem REKAS",
+                "items": [
                     {
-                        "name": "Kabupaten Bogor",
-                        "imageUrl": "/assets/klien/kab-bogor.png"
+                        "icon": "TrendingUp",
+                        "title": "Minimalisir Kebocoran PAD",
+                        "desc": "Validasi digital di setiap tahap memastikan seluruh retribusi yang ditarik terekam secara transparan dan masuk ke kas daerah secara akurat."
                     },
                     {
-                        "name": "Kabupaten Timika",
-                        "imageUrl": "/assets/klien/kab-timika.png"
+                        "icon": "Zap",
+                        "title": "Efisiensi Operasional",
+                        "desc": "Menghilangkan proses rekapitulasi manual yang lambat. Petugas lapangan dapat bekerja lebih cepat dengan dukungan aplikasi mobile terintegrasi."
                     },
                     {
-                        "name": "Kabupaten Bandung Barat",
-                        "imageUrl": "/assets/klien/kab-bandung-barat.png"
+                        "icon": "BarChart3",
+                        "title": "Keputusan Berbasis Data",
+                        "desc": "Pimpinan dapat memantau pencapaian target retribusi harian melalui dashboard interaktif untuk pengambilan kebijakan yang lebih tepat."
+                    },
+                    {
+                        "icon": "Leaf",
+                        "title": "Ramah Lingkungan (Paperless)",
+                        "desc": "Mendukung gerakan go-green dengan penerbitan SKRD dan SSRD digital yang dapat dikirim langsung via WhatsApp atau Email kepada wajib retribusi."
                     }
                 ]
             }
@@ -74,7 +84,7 @@
             "type": "VideoBlock",
             "data": {
                 "title": "Alur Kerja Digital REKAS",
-                "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+                "videoUrl": ""
             }
         },
         {

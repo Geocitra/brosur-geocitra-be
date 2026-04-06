@@ -51,21 +51,31 @@
             }
         },
         {
-            "type": "SocialProofBlock",
+            "type": "AdvantagesBlock",
+            "order": 3,
             "data": {
-                "title": "Trusted and Implemented By:",
-                "logos": [
+                "title": "Strategic Solution for Revenue Optimization",
+                "subtitle": "REKAS Core Advantages",
+                "items": [
                     {
-                        "name": "Bogor Regency",
-                        "imageUrl": "/assets/klien/kab-bogor.png"
+                        "icon": "TrendingUp",
+                        "title": "Minimize Revenue Leakage",
+                        "desc": "Automated digital validation ensures all collected retributions are transparently recorded and accurately deposited into regional treasury."
                     },
                     {
-                        "name": "Timika Regency",
-                        "imageUrl": "/assets/klien/kab-timika.png"
+                        "icon": "Zap",
+                        "title": "Operational Efficiency",
+                        "desc": "Eliminating slow manual recapitulation processes. Field officers can work faster with integrated mobile application support."
                     },
                     {
-                        "name": "West Bandung Regency",
-                        "imageUrl": "/assets/klien/kab-bandung-barat.png"
+                        "icon": "BarChart3",
+                        "title": "Data-Driven Leadership",
+                        "desc": "Management can monitor daily retribution targets through interactive dashboards for more precise policy-making."
+                    },
+                    {
+                        "icon": "Leaf",
+                        "title": "Eco-friendly (Paperless)",
+                        "desc": "Supporting the go-green movement by issuing digital invoices and receipts sent directly via WhatsApp or Email to taxpayers."
                     }
                 ]
             }

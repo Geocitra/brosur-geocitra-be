@@ -53,14 +53,26 @@
             }
         },
         {
-            "type": "SocialProofBlock",
+            "type": "AdvantagesBlock",
             "order": 3,
             "data": {
-                "title": "Telah Dipercaya & Digunakan Oleh:",
-                "logos": [
+                "title": "Solusi Digitalisasi Paling Relevan",
+                "subtitle": "Standar Enterprise",
+                "items": [
                     {
-                        "name": "Kabupaten Timika",
-                        "imageUrl": "/assets/klien/kab-timika.png"
+                        "icon": "ShieldCheck",
+                        "title": "Kepatuhan Regulasi",
+                        "desc": "Sistem dirancang sepenuhnya mengikuti standar UU Kearsipan No. 43 Tahun 2009 dan regulasi SPBE Nasional."
+                    },
+                    {
+                        "icon": "Zap",
+                        "title": "Performa Tinggi",
+                        "desc": "Akses dokumen kilat tanpa jeda, meskipun mengelola jutaan database arsip secara bersamaan."
+                    },
+                    {
+                        "icon": "Lock",
+                        "title": "Privasi Terjamin",
+                        "desc": "Data dienkripsi end-to-end, memastikan hanya pihak berwenang yang dapat membuka dokumen rahasia."
                     }
                 ]
             }
@@ -70,7 +82,7 @@
             "order": 4,
             "data": {
                 "title": "Alur Kerja Digitalisasi E-Arsip",
-                "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+                "videoUrl": ""
             }
         },
         {

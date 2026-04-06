@@ -53,18 +53,31 @@
             }
         },
         {
-            "type": "SocialProofBlock",
+            "type": "AdvantagesBlock",
             "order": 3,
             "data": {
-                "title": "Trusted and Utilized by Various Institutions:",
-                "logos": [
+                "title": "Strategic Impact for Modern Bureaucracy",
+                "subtitle": "Evidence-Based Governance",
+                "items": [
                     {
-                        "name": "Government Agency A",
-                        "imageUrl": "/assets/klien/kab-timika.png"
+                        "icon": "ShieldCheck",
+                        "title": "Real Work Accountability",
+                        "desc": "Transforming attendance formality into evidence-based reporting (photos & documents) that is objectively validated."
                     },
                     {
-                        "name": "Government Agency B",
-                        "imageUrl": "/assets/klien/kab-bandung-barat.png"
+                        "icon": "MapPin",
+                        "title": "Spatial WFH/WFA Monitoring",
+                        "desc": "An absolute solution for monitoring personnel during field assignments or remote work through GPS/GIS location visualization."
+                    },
+                    {
+                        "icon": "Target",
+                        "title": "Seamless SKP Integration",
+                        "desc": "Daily activities are automatically accumulated into Employee Performance Targets (SKP), ensuring every task contributes to organizational goals."
+                    },
+                    {
+                        "icon": "Activity",
+                        "title": "Digital Footprint & Audit Trail",
+                        "desc": "All reporting history is stored in a permanent, encrypted log system, guaranteeing total transparency and preventing data manipulation."
                     }
                 ]
             }

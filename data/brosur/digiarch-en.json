@@ -53,14 +53,26 @@
             }
         },
         {
-            "type": "SocialProofBlock",
+            "type": "AdvantagesBlock",
             "order": 3,
             "data": {
-                "title": "Trusted and Utilized By:",
-                "logos": [
+                "title": "The Most Relevant Digitalization Solution",
+                "subtitle": "Enterprise Standard",
+                "items": [
                     {
-                        "name": "Timika Regency",
-                        "imageUrl": "/assets/klien/kab-timika.png"
+                        "icon": "ShieldCheck",
+                        "title": "Regulatory Compliance",
+                        "desc": "The system is fully designed to comply with Archiving Law No. 43 of 2009 and National SPBE (Electronic-Based Government System) regulations."
+                    },
+                    {
+                        "icon": "Zap",
+                        "title": "High Performance",
+                        "desc": "Instant document access with zero lag, even when managing millions of archive databases simultaneously."
+                    },
+                    {
+                        "icon": "Lock",
+                        "title": "Guaranteed Privacy",
+                        "desc": "End-to-end data encryption ensures that only authorized personnel can access confidential and restricted documents."
                     }
                 ]
             }

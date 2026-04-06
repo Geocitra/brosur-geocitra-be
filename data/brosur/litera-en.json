@@ -64,10 +64,39 @@
                     }
                 ]
             }
+        },{
+            "type": "AdvantagesBlock",
+            "order": 4,
+            "data": {
+                "title": "More Than Just Reading & Writing",
+                "subtitle": "LITERA Key Advantages",
+                "items": [
+                    {
+                        "icon": "BrainCircuit",
+                        "title": "Mature Thinking",
+                        "desc": "LITERA focuses on character building and clear reflective thinking, rather than just pursuing grades or quantitative metrics."
+                    },
+                    {
+                        "icon": "Layers",
+                        "title": "Integrated 3E Methodology",
+                        "desc": "A systematic learning path starting from Exercise, through Experience, to Experiment for authentic and proven results."
+                    },
+                    {
+                        "icon": "Users",
+                        "title": "Expert Mentorship",
+                        "desc": "Direct access to discuss with experienced literacy mentors to sharpen linguistic sensitivity and intellectual responsibility."
+                    },
+                    {
+                        "icon": "Library",
+                        "title": "Digital Literacy Ecosystem",
+                        "desc": "Equipped with integrated Reflection Journals, Writing Templates, and Reading Archives to support measurable learning progress."
+                    }
+                ]
+            }
         },
         {
             "type": "VideoBlock",
-            "order": 4,
+            "order": 5,
             "data": {
                 "title": "Understanding the 3E Learning Method",
                 "videoUrl": ""
@@ -75,7 +104,7 @@
         },
         {
             "type": "FaqBlock",
-            "order": 5,
+            "order": 6,
             "data": {
                 "title": "Frequently Asked Questions",
                 "items": [
