@@ -13,6 +13,6 @@ export declare class ShowcaseService {
         name: string;
         tagline: string;
         primaryColor: string;
-        blocks: import("@prisma/client/runtime/library").JsonValue;
+        blocks: import("node_modules/@prisma/client/runtime/library").JsonValue;
     }>;
 }
