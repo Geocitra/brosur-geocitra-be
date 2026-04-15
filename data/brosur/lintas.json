@@ -1,0 +1,90 @@
+{
+    "slug": "lintas",
+    "name": "LINTAS",
+    "tagline": "Aplikasi Tata Kelola Infrastruktur Transportasi Berbasis GIS untuk Smart Governance.",
+    "primaryColor": "#f59e0b",
+    "blocks": [
+        {
+            "type": "HeroBlock",
+            "order": 1,
+            "data": {
+                "title": "Mengubah Data Aset Menjadi Informasi Spasial Dinamis",
+                "description": "LINTAS (Layanan Inventaris & Tata Aset Sistem) mendigitalisasi seluruh data aset infrastruktur transportasi ke dalam peta interaktif untuk pengawasan akurat, respon cepat, dan pengambilan keputusan berbasis data (Data-Driven Decision Making).",
+                "imageUrl": "/assets/lintas-mockup.png",
+                "fileUrl": "/uploads/brosur-lintas.pdf",
+                "buttonText": "Buka Brosur Lengkap (PDF)"
+            }
+        },
+        {
+            "type": "FeaturesBlock",
+            "order": 2,
+            "data": {
+                "title": "Dampak Strategis & Keunggulan",
+                "features": [
+                    {
+                        "icon": "Map",
+                        "title": "Visualisasi Spasial (GIS)",
+                        "desc": "Pemetaan interaktif geografis yang memungkinkan penentuan lokasi pemasangan PJU/CCTV baru berdasarkan titik buta aktual, bukan sekadar perkiraan.",
+                        "mediaUrl": "/assets/features/lintas/gis-mapping.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "Zap",
+                        "title": "WhatsApp Dispatching",
+                        "desc": "Memangkas birokrasi dan meningkatkan kecepatan respon (Speed of Response). Laporan kerusakan langsung diteruskan ke Tim Lapangan via WhatsApp dalam hitungan jam.",
+                        "mediaUrl": "/assets/features/lintas/wa-dispatch.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "Database",
+                        "title": "Inventarisasi Detail Aset",
+                        "desc": "Database komprehensif yang mencakup spesifikasi teknis aset (panjang, lebar, jenis perkerasan) serta koordinat lokasi dan dokumentasi kondisi fisik setiap ruas secara presisi.",
+                        "mediaUrl": "/assets/features/lintas/detail-aset.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "ShieldCheck",
+                        "title": "Log Aktivitas Transparan",
+                        "desc": "Sistem mencatat seluruh riwayat aktivitas pengguna secara mendetail (Siapa, Kapan, Apa yang dilakukan) untuk mencegah manipulasi data dan menjamin akuntabilitas terukur.",
+                        "mediaUrl": "/assets/features/lintas/log-aktivitas.png",
+                        "mediaType": "image"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "SocialProofBlock",
+            "order": 3,
+            "data": {
+                "title": "Diinisiasi & Dikembangkan Oleh:",
+                "logos": [
+                    {
+                        "name": "Geocitra",
+                        "imageUrl": "/logogeocitra.png"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "FaqBlock",
+            "order": 4,
+            "data": {
+                "title": "Pertanyaan Umum (FAQ) & Komparasi",
+                "items": [
+                    {
+                        "q": "Apa perbedaan utama sistem LINTAS dibandingkan pendataan manual?",
+                        "a": "Pendataan manual menggunakan dokumen fisik terfragmentasi yang rentan hilang dan sulit diakses. LINTAS mengubahnya menjadi database relasional terpusat dengan akses instan via web, visualisasi peta interaktif geografis, serta backup data otomatis."
+                    },
+                    {
+                        "q": "Bagaimana aplikasi ini mengatur hak akses (Role-Based Access)?",
+                        "a": "Sistem membagi tugas secara terstruktur: Admin/Operator bertugas mengelola inventaris, Tim Lapangan mengeksekusi perbaikan melalui rujukan peta digital, dan Kepala Dinas bertindak sebagai pengambil kebijakan berdasarkan laporan terukur."
+                    },
+                    {
+                        "q": "Apakah sistem LINTAS mampu mencegah duplikasi data atau kehilangan aset?",
+                        "a": "Ya. LINTAS menerapkan sentralisasi data untuk menghilangkan ego sektoral, meminimalisir duplikasi pendataan antar seksi, serta memiliki log aktivitas transparan (jejak digital) sebagai lapis keamanan mutlak."
+                    }
+                ]
+            }
+        }
+    ]
+}

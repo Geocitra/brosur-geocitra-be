@@ -1,0 +1,90 @@
+{
+    "slug": "lintas-en",
+    "name": "LINTAS",
+    "tagline": "GIS-Based Transportation Infrastructure Governance Application for Smart Governance.",
+    "primaryColor": "#f59e0b",
+    "blocks": [
+        {
+            "type": "HeroBlock",
+            "order": 1,
+            "data": {
+                "title": "Transforming Asset Data into Dynamic Spatial Information",
+                "description": "LINTAS (Service Inventory & Asset System Management) digitalizes all transportation infrastructure asset data into an interactive map for accurate oversight, rapid response, and Data-Driven Decision Making.",
+                "imageUrl": "/assets/lintas-en-mockup.png",
+                "fileUrl": "/uploads/brosur-lintas-en.pdf",
+                "buttonText": "Open Full Brochure (PDF)"
+            }
+        },
+        {
+            "type": "FeaturesBlock",
+            "order": 2,
+            "data": {
+                "title": "Strategic Impact & Key Advantages",
+                "features": [
+                    {
+                        "icon": "Map",
+                        "title": "Spatial Visualization (GIS)",
+                        "desc": "Interactive geographic mapping that enables the determination of new Street Lighting (PJU) or CCTV installation locations based on actual blind spots, rather than mere estimates.",
+                        "mediaUrl": "/assets/features/lintas/gis-mapping.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "Zap",
+                        "title": "WhatsApp Dispatching",
+                        "desc": "Cutting through bureaucracy to increase Speed of Response. Damage reports are forwarded directly to Field Teams via WhatsApp within hours.",
+                        "mediaUrl": "/assets/features/lintas/wa-dispatch.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "Database",
+                        "title": "Detailed Asset Inventory",
+                        "desc": "A comprehensive database covering technical asset specifications (length, width, pavement type) as well as precise location coordinates and physical condition documentation.",
+                        "mediaUrl": "/assets/features/lintas/detail-aset.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "ShieldCheck",
+                        "title": "Transparent Activity Log",
+                        "desc": "The system records all user activity history in detail (Who, When, What was done) to prevent data manipulation and ensure measurable accountability.",
+                        "mediaUrl": "/assets/features/lintas/log-aktivitas.png",
+                        "mediaType": "image"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "SocialProofBlock",
+            "order": 3,
+            "data": {
+                "title": "Initiated & Developed By:",
+                "logos": [
+                    {
+                        "name": "Geocitra",
+                        "imageUrl": "/logogeocitra.png"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "FaqBlock",
+            "order": 4,
+            "data": {
+                "title": "General FAQ & Comparison",
+                "items": [
+                    {
+                        "q": "What is the main difference between LINTAS and manual data collection?",
+                        "a": "Manual data collection relies on fragmented physical documents prone to loss and difficult to access. LINTAS transforms them into a centralized relational database with instant web access, interactive geographic map visualization, and automatic data backups."
+                    },
+                    {
+                        "q": "How does this application manage access rights (Role-Based Access)?",
+                        "a": "The system organizes tasks structurally: Admin/Operators manage the inventory, Field Teams execute repairs via digital map references, and the Head of Department acts as the decision-maker based on measurable reports."
+                    },
+                    {
+                        "q": "Is LINTAS able to prevent data duplication or asset loss?",
+                        "a": "Yes. LINTAS implements data centralization to eliminate departmental silos, minimize data collection duplication between sections, and features a transparent activity log (digital trail) as an absolute security layer."
+                    }
+                ]
+            }
+        }
+    ]
+}
