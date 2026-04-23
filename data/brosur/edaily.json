@@ -12,7 +12,9 @@
                 "description": "E-Daily Report mentransformasikan pelaporan dari sekadar kehadiran fisik menjadi pemantauan output kerja yang tervalidasi dan terukur secara spasial.",
                 "imageUrl": "/assets/edaily-mockup.png",
                 "fileUrl": "/uploads/brosur-edaily.pdf",
-                "buttonText": "Buka Brosur Lengkap (PDF)"
+                "buttonText": "Buka Brosur Lengkap (PDF)",
+                "demoUrl": "https://edaily-report.geocitra.com/",
+                "demoButtonText": "Live Demo"
             }
         },
         {

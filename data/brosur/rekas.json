@@ -11,7 +11,9 @@
                 "description": "REKAS mendigitalisasi seluruh proses retribusi dari hulu ke hilir untuk meningkatkan efisiensi kerja Staff Dinas, UPT, hingga Petugas Penagih di lapangan.",
                 "imageUrl": "/assets/rekas-mockup.png",
                 "fileUrl": "/uploads/brosur-rekas.pdf",
-                "buttonText": "Buka Brosur Lengkap (PDF)"
+                "buttonText": "Buka Brosur Lengkap (PDF)",
+                "demoUrl": "https://rekas-demo.geocitra.com/",
+                "demoButtonText": "Live Demo"
             }
         },
         {

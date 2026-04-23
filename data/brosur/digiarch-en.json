@@ -12,7 +12,9 @@
                 "description": "Managing institutional archives is now faster, more secure, and more practical. DigiArch transforms your millions of physical document piles into a smart digital ecosystem with high accountability.",
                 "imageUrl": "/assets/digiarch-mockup.png",
                 "fileUrl": "/uploads/digiarch.pdf",
-                "buttonText": "View DigiArch Brochure (PDF)"
+                "buttonText": "View DigiArch Brochure (PDF)",
+                "demoUrl": "https://arsip-demo.geocitra.com/",
+                "demoButtonText": "Live Demo"
             }
         },
         {

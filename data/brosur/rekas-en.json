@@ -11,7 +11,9 @@
                 "description": "REKAS digitalizes the entire retribution process from end-to-end to enhance the operational efficiency of Department Staff, Technical Units (UPT), and Field Collection Officers.",
                 "imageUrl": "/assets/rekas-mockup.png",
                 "fileUrl": "/uploads/brosur-rekas.pdf",
-                "buttonText": "View Full Brochure (PDF)"
+                "buttonText": "View Full Brochure (PDF)",
+                "demoUrl": "https://rekas-demo.geocitra.com/",
+                "demoButtonText": "Live Demo"
             }
         },
         {

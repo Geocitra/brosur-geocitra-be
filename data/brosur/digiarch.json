@@ -12,7 +12,9 @@
                 "description": "Mengelola arsip instansi kini lebih cepat, aman, dan praktis. DigiArch mentransformasikan jutaan tumpukan dokumen fisik Anda menjadi ekosistem digital cerdas dengan akuntabilitas tinggi.",
                 "imageUrl": "/assets/digiarch-mockup.png",
                 "fileUrl": "/uploads/digiarch.pdf",
-                "buttonText": "Buka Brosur DigiArch (PDF)"
+                "buttonText": "Buka Brosur DigiArch (PDF)",
+                "demoUrl": "https://arsip-demo.geocitra.com/",
+                "demoButtonText": "Live Demo"
             }
         },
         {
