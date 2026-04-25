@@ -12,7 +12,9 @@
                 "description": "LINTAS (Layanan Inventaris & Tata Aset Sistem) mendigitalisasi seluruh data aset infrastruktur transportasi ke dalam peta interaktif untuk pengawasan akurat, respon cepat, dan pengambilan keputusan berbasis data (Data-Driven Decision Making).",
                 "imageUrl": "/assets/lintas-mockup.png",
                 "fileUrl": "/uploads/brosur-lintas.pdf",
-                "buttonText": "Buka Brosur Lengkap (PDF)"
+                "buttonText": "Buka Brosur Lengkap (PDF)",
+                "demoUrl": "https://lintas-demo.geocitra.com/",
+                "demoButtonText": "Live Demo"
             }
         },
         {

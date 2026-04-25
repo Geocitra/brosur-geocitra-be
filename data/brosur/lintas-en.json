@@ -12,7 +12,9 @@
                 "description": "LINTAS (Service Inventory & Asset System Management) digitalizes all transportation infrastructure asset data into an interactive map for accurate oversight, rapid response, and Data-Driven Decision Making.",
                 "imageUrl": "/assets/lintas-en-mockup.png",
                 "fileUrl": "/uploads/brosur-lintas-en.pdf",
-                "buttonText": "Open Full Brochure (PDF)"
+                "buttonText": "Open Full Brochure (PDF)",
+                "demoUrl": "https://lintas-demo.geocitra.com/",
+                "demoButtonText": "Live Demo"
             }
         },
         {
