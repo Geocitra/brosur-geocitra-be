@@ -12,7 +12,9 @@
                 "description": "LITERA places people, experiences, and the thinking process at the heart of learning. We help you cultivate clear thinking and ethical communication through the habits of reflective reading and writing.",
                 "imageUrl": "/assets/litera-mockup.png",
                 "fileUrl": "/uploads/brosur-litera.pdf",
-                "buttonText": "Open LITERA Module (PDF)"
+                "buttonText": "Open LITERA Module (PDF)",
+                "demoUrl": "https://litera-demo.geocitra.com/",
+                "demoButtonText": "Live Demo"
             }
         },
         {

@@ -12,7 +12,9 @@
                 "description": "LITERA menempatkan manusia, pengalaman, dan proses berpikir sebagai pusat pembelajaran. Kami membantu Anda membentuk cara berpikir jernih dan komunikasi yang etis melalui kebiasaan membaca dan menulis secara reflektif.",
                 "imageUrl": "/assets/litera-mockup.png",
                 "fileUrl": "/uploads/brosur-litera.pdf",
-                "buttonText": "Buka Modul LITERA (PDF)"
+                "buttonText": "Buka Modul LITERA (PDF)",
+                "demoUrl": "https://litera-demo.geocitra.com/",
+                "demoButtonText": "Live Demo"
             }
         },
         {
@@ -64,7 +66,8 @@
                     }
                 ]
             }
-        },{
+        },
+        {
             "type": "AdvantagesBlock",
             "order": 4,
             "data": {
