@@ -1,0 +1,109 @@
+{
+    "slug": "marketplace-umkm",
+    "name": "SME Marketplace",
+    "tagline": "Integrated E-Commerce Platform for Digital Economy Empowerment and Micro Enterprises.",
+    "primaryColor": "#d97706",
+    "blocks": [
+        {
+            "type": "HeroBlock",
+            "order": 1,
+            "data": {
+                "title": "Digitalization of SME Sales Centers",
+                "description": "An end-to-end e-commerce solution bridging micro-entrepreneurs with the digital market. Combining a dynamic buyer storefront with a comprehensive seller (tenant) managerial dashboard in one centralized ecosystem.",
+                "imageUrl": "/assets/marketplace-mockup.png",
+                "fileUrl": "/uploads/brosur-marketplaceumkm.pdf",
+                "buttonText": "Open Full Brochure (PDF)",
+                "demoUrl": "https://lamtim-mart.geocitra.com/",
+                "demoButtonText": "Live Demo"
+            }
+        },
+        {
+            "type": "FeaturesBlock",
+            "order": 2,
+            "data": {
+                "title": "Multi-Domain User Architecture",
+                "features": [
+                    {
+                        "icon": "Grid",
+                        "title": "Specialized Product Categorization",
+                        "desc": "A front-end navigation system specifically grouped based on SME industry clusters, ranging from Culinary, Fashion, Crafts, Health, to Automotive and Electronics.",
+                        "mediaUrl": "/assets/features/marketplace/kategori-pembeli.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "ShoppingCart",
+                        "title": "Centralized Transaction System",
+                        "desc": "A seamless checkout flow with integrated shopping cart management, making it easy for buyers to transact from multiple tenants simultaneously.",
+                        "mediaUrl": "/assets/features/marketplace/cart-checkout.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "Store",
+                        "title": "Seller (Tenant) Management Dashboard",
+                        "desc": "A dedicated portal (isolated domain) for sellers to manage product inventory, update store profiles, and monitor incoming orders in real-time.",
+                        "mediaUrl": "/assets/features/marketplace/seller-dashboard.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "BarChart2",
+                        "title": "Business Performance Analytics",
+                        "desc": "A sales statistics module that provides data-driven insights for sellers to evaluate product performance and buyer purchasing trends.",
+                        "mediaUrl": "/assets/features/marketplace/seller-statistik.png",
+                        "mediaType": "image"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "AdvantagesBlock",
+            "order": 3,
+            "data": {
+                "title": "Why Choose This Ecosystem?",
+                "subtitle": "Digital Economic Independence",
+                "items": [
+                    {
+                        "icon": "ShieldCheck",
+                        "title": "Access Segregation",
+                        "desc": "Guaranteed security and convenience with absolute separation between the public user interface (UI) for buyers and the closed administrative panel for sellers."
+                    },
+                    {
+                        "icon": "TrendingUp",
+                        "title": "Tenant Scalability",
+                        "desc": "Designed to accommodate thousands of tenants with independent product catalog management, significantly reducing the operational burden on the main platform administrator."
+                    },
+                    {
+                        "icon": "Smartphone",
+                        "title": "Responsive & Mobile-First",
+                        "desc": "The interface is engineered for full compatibility across various devices, ensuring an optimal shopping experience from both smartphones and desktops."
+                    },
+                    {
+                        "icon": "Target",
+                        "title": "Focus on Local Empowerment",
+                        "desc": "Provides an exclusive stage for local products to compete globally without drowning in the algorithms of giant, generalist marketplaces."
+                    }
+                ]
+            }
+        },
+        {
+            "type": "FaqBlock",
+            "order": 4,
+            "data": {
+                "title": "Frequently Asked Questions (FAQ)",
+                "items": [
+                    {
+                        "q": "Does each seller have their own access rights?",
+                        "a": "Certainly. Each seller (tenant) is given special access to the Seller Dashboard where they have full autonomy to add products, manage stock, and view their own store's order history without intervening with other stores."
+                    },
+                    {
+                        "q": "How do buyers search for products across categories?",
+                        "a": "This platform features a robust category-based navigation module that logically groups products, allowing buyers to quickly filter items from electronics to handicrafts with ease."
+                    },
+                    {
+                        "q": "Can this be implemented for rural enterprises (BUMDes) or cooperative programs?",
+                        "a": "Absolutely. This system is a white-label solution and its structure is highly ideal for adaptation by government agencies, Village-Owned Enterprises (BUMDes), or Cooperatives aiming to build an independent digital market for their members."
+                    }
+                ]
+            }
+        }
+    ]
+}

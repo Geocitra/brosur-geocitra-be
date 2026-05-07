@@ -1,0 +1,109 @@
+{
+    "slug": "marketplace-umkm",
+    "name": "Marketplace UMKM",
+    "tagline": "Platform E-Commerce Terintegrasi untuk Pemberdayaan Ekonomi Digital dan Usaha Mikro.",
+    "primaryColor": "#d97706",
+    "blocks": [
+        {
+            "type": "HeroBlock",
+            "order": 1,
+            "data": {
+                "title": "Digitalisasi Sentra Penjualan UMKM",
+                "description": "Solusi e-commerce end-to-end yang menjembatani pelaku usaha mikro dengan pasar digital. Menggabungkan etalase pembeli yang dinamis dengan dasbor manajerial penjual (tenant) yang komprehensif dalam satu ekosistem terpusat.",
+                "imageUrl": "/assets/marketplace-mockup.png",
+                "fileUrl": "/uploads/brosur-marketplaceumkm.pdf",
+                "buttonText": "Buka Brosur Lengkap (PDF)",
+                "demoUrl": "https://lamtim-mart.geocitra.com/",
+                "demoButtonText": "Live Demo"
+            }
+        },
+        {
+            "type": "FeaturesBlock",
+            "order": 2,
+            "data": {
+                "title": "Arsitektur Multi-Domain Pengguna",
+                "features": [
+                    {
+                        "icon": "Grid",
+                        "title": "Kategorisasi Produk Terspesialisasi",
+                        "desc": "Sistem navigasi front-end yang dikelompokkan secara spesifik berdasarkan klaster industri UMKM, seperti Kuliner, Fashion, Kerajinan, Kesehatan, hingga Otomotif dan Elektronik.",
+                        "mediaUrl": "/assets/features/marketplace/kategori-pembeli.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "ShoppingCart",
+                        "title": "Sistem Transaksi Terpusat",
+                        "desc": "Alur checkout yang mulus (seamless) dengan manajemen keranjang belanja (cart) terintegrasi, memudahkan pembeli melakukan transaksi dari berbagai tenant secara bersamaan.",
+                        "mediaUrl": "/assets/features/marketplace/cart-checkout.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "Store",
+                        "title": "Dasbor Manajemen Penjual (Tenant)",
+                        "desc": "Portal khusus (isolated domain) bagi penjual untuk mengelola inventaris produk, memperbarui profil toko, dan memantau pesanan masuk secara real-time.",
+                        "mediaUrl": "/assets/features/marketplace/seller-dashboard.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "BarChart2",
+                        "title": "Analitik Performa Bisnis",
+                        "desc": "Modul statistik penjualan yang memberikan wawasan (insight) berbasis data bagi penjual untuk mengevaluasi performa produk dan tren pembeli.",
+                        "mediaUrl": "/assets/features/marketplace/seller-statistik.png",
+                        "mediaType": "image"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "AdvantagesBlock",
+            "order": 3,
+            "data": {
+                "title": "Mengapa Menggunakan Ekosistem Ini?",
+                "subtitle": "Kemandirian Ekonomi Digital",
+                "items": [
+                    {
+                        "icon": "ShieldCheck",
+                        "title": "Pemisahan Akses (Access Segregation)",
+                        "desc": "Keamanan dan kenyamanan terjamin dengan pemisahan mutlak antara antarmuka (UI) publik untuk pembeli dan panel administratif tertutup bagi penjual."
+                    },
+                    {
+                        "icon": "TrendingUp",
+                        "title": "Skalabilitas Tenant",
+                        "desc": "Dirancang untuk mengakomodasi ribuan tenant dengan manajemen katalog produk mandiri, mengurangi beban operasional pengelola platform utama."
+                    },
+                    {
+                        "icon": "Smartphone",
+                        "title": "Responsif & Mobile-First",
+                        "desc": "Antarmuka dirancang untuk kompatibilitas penuh di berbagai perangkat, memastikan pengalaman berbelanja yang optimal dari ponsel pintal maupun desktop."
+                    },
+                    {
+                        "icon": "Target",
+                        "title": "Fokus pada Pemberdayaan Lokal",
+                        "desc": "Memberikan panggung eksklusif bagi produk lokal untuk bersaing tanpa harus tenggelam dalam algoritma marketplace berskala global."
+                    }
+                ]
+            }
+        },
+        {
+            "type": "FaqBlock",
+            "order": 4,
+            "data": {
+                "title": "Pertanyaan Umum (FAQ)",
+                "items": [
+                    {
+                        "q": "Apakah setiap penjual memiliki hak aksesnya sendiri?",
+                        "a": "Tentu. Setiap penjual (tenant) diberikan akses khusus ke Seller Dashboard di mana mereka memiliki otonomi penuh untuk menambah produk, mengatur stok, dan melihat riwayat pesanan tokonya sendiri tanpa mengintervensi toko lain."
+                    },
+                    {
+                        "q": "Bagaimana pembeli melakukan pencarian produk lintas kategori?",
+                        "a": "Platform ini memiliki modul navigasi berbasis kategori yang mengelompokkan produk secara logis, memungkinkan pembeli memfilter barang dari elektronik hingga hasil kerajinan dengan sangat cepat."
+                    },
+                    {
+                        "q": "Apakah ini bisa diimplementasikan untuk program BUMDes atau koperasi?",
+                        "a": "Sangat bisa. Sistem ini bersifat white-label dan strukturnya sangat ideal untuk diadaptasi oleh instansi pemerintah, BUMDes, atau Koperasi yang ingin memiliki pasar digital mandiri untuk anggotanya."
+                    }
+                ]
+            }
+        }
+    ]
+}
