@@ -1,0 +1,107 @@
+{
+    "slug": "siap-bpk",
+    "name": "SiAP-BPK",
+    "tagline": "Sistem Integral Atestasi Persiapan BPK. Siap Data, Siap Audit, Siap Opini.",
+    "primaryColor": "#0284c7",
+    "blocks": [
+        {
+            "type": "HeroBlock",
+            "order": 1,
+            "data": {
+                "title": "Ubah Kepanikan Audit Menjadi Kesiapan Terukur",
+                "description": "Tinggalkan cara lama yang mengandalkan dokumen berserakan di flashdisk dan checklist manual. SiAP-BPK mengonsolidasikan data, mengotomatisasi pengingat, dan memastikan skor kesiapan audit instansi Anda selalu di atas 90% sebelum auditor tiba.",
+                "imageUrl": "/assets/siap-bpk-mockup.png",
+                "fileUrl": "/uploads/brosur-siap-bpk.pdf",
+                "buttonText": "Buka Brosur Lengkap (PDF)"
+            }
+        },
+        {
+            "type": "FeaturesBlock",
+            "order": 2,
+            "data": {
+                "title": "Arsitektur Kesiapan Audit Digital",
+                "features": [
+                    {
+                        "icon": "PieChart",
+                        "title": "Dashboard Kesiapan & Pemetaan Lemah",
+                        "desc": "Visibilitas penuh bagi pimpinan dengan indikator warna per bidang. Identifikasi area yang rawan (misal: Infrastruktur atau Kesehatan) sebelum menjadi temuan beneran.",
+                        "mediaUrl": "/assets/features/siap/dashboard.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "FolderCheck",
+                        "title": "Repository Terstruktur & Checklist Dinamis",
+                        "desc": "Dokumen diamankan dalam struktur folder baku per Tahun Anggaran, dilengkapi daftar periksa cerdas yang beradaptasi dari riwayat temuan LHP masa lalu.",
+                        "mediaUrl": "/assets/features/siap/repository.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "BellRing",
+                        "title": "Sistem Peringatan Dini (WhatsApp)",
+                        "desc": "Mencegah pekerjaan menumpuk di H-1. Sistem secara otomatis memantau status dokumen dan mengirim teguran/notifikasi ke WhatsApp staf penanggung jawab sejak H-30.",
+                        "mediaUrl": "/assets/features/siap/early-warning.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "CheckSquare",
+                        "title": "Modul Tindak Lanjut LHP",
+                        "desc": "Menutup celah kepatuhan pasca-audit. Lacak status penyelesaian rekomendasi auditor secara real-time dari 'Belum Ditindaklanjuti' hingga tuntas.",
+                        "mediaUrl": "/assets/features/siap/tindak-lanjut.png",
+                        "mediaType": "image"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "AdvantagesBlock",
+            "order": 3,
+            "data": {
+                "title": "Mengapa Memilih SiAP-BPK?",
+                "subtitle": "Kesiapan Bukanlah Kebetulan, Melainkan Sistem",
+                "items": [
+                    {
+                        "icon": "Zap",
+                        "title": "Penyediaan Data Sekali Klik",
+                        "desc": "Memangkas waktu pencarian dokumen fisik dari hitungan hari menjadi kurang dari 1 hari. Semua arsip terdigitalisasi dan terindeks dengan rapi."
+                    },
+                    {
+                        "icon": "ShieldCheck",
+                        "title": "Cegah Amnesia Digital",
+                        "desc": "Rotasi pegawai tidak lagi menjadi masalah. Memori institusi dan riwayat temuan masa lalu tersimpan permanen di dalam sistem sebagai panduan."
+                    },
+                    {
+                        "icon": "Activity",
+                        "title": "Visibilitas Pimpinan Real-time",
+                        "desc": "Kepala Dinas dapat memantau kesiapan audit setiap bidang secara langsung dari layar monitor tanpa perlu mengadakan rapat evaluasi mingguan yang menyita waktu."
+                    },
+                    {
+                        "icon": "Smile",
+                        "title": "Bebas Beban Hafalan bagi Staf",
+                        "desc": "Pelaksana lapangan dan bendahara tidak perlu lagi panik menghafal daftar kelengkapan rumit, karena tenggat waktu dan jadwal dikelola penuh oleh sistem."
+                    }
+                ]
+            }
+        },
+        {
+            "type": "FaqBlock",
+            "order": 4,
+            "data": {
+                "title": "Transparansi & Manajemen Risiko",
+                "items": [
+                    {
+                        "q": "Bagaimana mencegah staf mengunggah dokumen asal-asalan demi status hijau?",
+                        "a": "Sistem dilengkapi fitur Verifikasi Internal Berlapis. Sebuah indikator tidak akan berubah menjadi hijau hanya dengan mengunggah file; harus ada persetujuan (approval) mutlak dari atasan langsung atau Sekretaris Dinas."
+                    },
+                    {
+                        "q": "Apakah dokumen keuangan instansi aman di dalam sistem ini?",
+                        "a": "Sangat aman. Sistem dapat di-hosting secara lokal (On-Premise) pada intranet Pemda atau menggunakan Cloud terenkripsi. Hak akses dibatasi secara ketat menggunakan metode Role-Based Access Control (RBAC)."
+                    },
+                    {
+                        "q": "Apakah aplikasi ini terhubung langsung (API) dengan BPK atau SIPD?",
+                        "a": "Tidak. SiAP-BPK didesain sebagai sistem mandiri (standalone) untuk mengamankan data internal perangkat daerah. Namun, sistem menyediakan kapabilitas impor CSV/Excel untuk memindahkan data indikator secara masal dan cepat."
+                    }
+                ]
+            }
+        }
+    ]
+}

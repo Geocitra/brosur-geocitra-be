@@ -1,0 +1,107 @@
+{
+    "slug": "siap-bpk-en",
+    "name": "SiAP-BPK",
+    "tagline": "Integral System for Audit Preparation. Ready Data, Ready Audit, Ready Opinion.",
+    "primaryColor": "#0284c7",
+    "blocks": [
+        {
+            "type": "HeroBlock",
+            "order": 1,
+            "data": {
+                "title": "Transform Audit Panic into Measurable Readiness",
+                "description": "Leave behind outdated methods relying on scattered documents and manual checklists. SiAP-BPK consolidates data, automates reminders, and ensures your institution's audit readiness score consistently exceeds 90% before the auditors arrive.",
+                "imageUrl": "/assets/siap-bpk-mockup.png",
+                "fileUrl": "/uploads/siap-bpk-brochure-en.pdf",
+                "buttonText": "Open Full Brochure (PDF)"
+            }
+        },
+        {
+            "type": "FeaturesBlock",
+            "order": 2,
+            "data": {
+                "title": "Digital Audit Readiness Architecture",
+                "features": [
+                    {
+                        "icon": "PieChart",
+                        "title": "Readiness Dashboard & Vulnerability Mapping",
+                        "desc": "Full visibility for executives with color-coded indicators per department. Identify vulnerable areas (e.g., Infrastructure or Health) before they turn into actual audit findings.",
+                        "mediaUrl": "/assets/features/siap/dashboard.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "FolderCheck",
+                        "title": "Structured Repository & Dynamic Checklist",
+                        "desc": "Documents are secured in standardized folders per Fiscal Year, equipped with smart checklists that adapt based on the history of past audit findings.",
+                        "mediaUrl": "/assets/features/siap/repository.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "BellRing",
+                        "title": "Early Warning System (WhatsApp)",
+                        "desc": "Prevents last-minute task accumulation. The system automatically monitors document status and sends alerts via WhatsApp to the person in charge starting 30 days prior.",
+                        "mediaUrl": "/assets/features/siap/early-warning.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "CheckSquare",
+                        "title": "LHP Follow-up Module",
+                        "desc": "Closes compliance gaps post-audit. Track the completion status of auditor recommendations in real-time, from 'Not Yet Followed Up' to fully resolved.",
+                        "mediaUrl": "/assets/features/siap/tindak-lanjut.png",
+                        "mediaType": "image"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "AdvantagesBlock",
+            "order": 3,
+            "data": {
+                "title": "Why Choose SiAP-BPK?",
+                "subtitle": "Readiness is Not a Coincidence, It is a System",
+                "items": [
+                    {
+                        "icon": "Zap",
+                        "title": "One-Click Data Provision",
+                        "desc": "Cuts down physical document retrieval time from days to less than a day. All archives are digitized and neatly indexed."
+                    },
+                    {
+                        "icon": "ShieldCheck",
+                        "title": "Prevent Digital Amnesia",
+                        "desc": "Employee rotation is no longer a liability. Institutional memory and past audit histories are permanently stored as a guiding framework."
+                    },
+                    {
+                        "icon": "Activity",
+                        "title": "Real-time Executive Visibility",
+                        "desc": "Department Heads can monitor audit readiness directly from their screens without having to hold time-consuming weekly evaluation meetings."
+                    },
+                    {
+                        "icon": "Smile",
+                        "title": "Eliminate Cognitive Overload for Staff",
+                        "desc": "Field staff and treasurers no longer need to panic over memorizing complex checklists, as all deadlines and schedules are fully managed by the system."
+                    }
+                ]
+            }
+        },
+        {
+            "type": "FaqBlock",
+            "order": 4,
+            "data": {
+                "title": "Transparency & Risk Management",
+                "items": [
+                    {
+                        "q": "How do you prevent staff from uploading random documents just to get a 'Green' status?",
+                        "a": "The system features Multi-Layered Internal Verification. An indicator will not turn green simply by uploading a file; it requires an absolute approval from the direct supervisor or the Department Secretary."
+                    },
+                    {
+                        "q": "Are the institution's financial documents secure within this system?",
+                        "a": "Highly secure. The system can be hosted On-Premise on the government's intranet or via an encrypted Cloud. Access rights are strictly limited using Role-Based Access Control (RBAC)."
+                    },
+                    {
+                        "q": "Does this application integrate directly (via API) with BPK or SIPD?",
+                        "a": "No. SiAP-BPK is designed as a standalone system to secure internal agency data. However, it provides CSV/Excel import capabilities to migrate indicator data massively and quickly."
+                    }
+                ]
+            }
+        }
+    ]
+}
