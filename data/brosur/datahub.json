@@ -1,0 +1,102 @@
+{
+    "slug": "datahub",
+    "name": "Portal Data Terpadu (DataHub)",
+    "tagline": "Pusat Integrasi, Pembersihan Data (Data Cleaning), dan Katalogisasi Sektoral Daerah.",
+    "primaryColor": "#0369a1",
+    "blocks": [
+        {
+            "type": "HeroBlock",
+            "order": 1,
+            "data": {
+                "title": "Membangun Fondasi Kebijakan Berbasis Data",
+                "description": "Sistem Manajemen Data Enterprise yang menyelesaikan masalah fragmentasi dan data kotor antar instansi. DataHub secara otomatis membersihkan, memvalidasi, dan mengkatalogkan data daerah menjadi satu pusat informasi yang siap dicari dan diaudit.",
+                "imageUrl": "/assets/datahub-mockup.png",
+                "fileUrl": "/uploads/brosur-datahub.pdf",
+                "buttonText": "Buka Brosur Lengkap (PDF)"
+            }
+        },
+        {
+            "type": "FeaturesBlock",
+            "order": 2,
+            "data": {
+                "title": "Arsitektur Pemrosesan & Penjaminan Mutu Data",
+                "features": [
+                    {
+                        "icon": "Filter",
+                        "title": "Automated Data Cleaning",
+                        "desc": "Mesin cerdas yang secara otomatis merapikan data mentah yang diunggah. Menstandardisasi format, menormalisasi penamaan, dan memastikan konsistensi tipe data.",
+                        "mediaUrl": "/assets/features/datahub/data-cleaning.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "Search",
+                        "title": "Advanced Search & Smart Filtering",
+                        "desc": "Kemampuan penelusuran tingkat lanjut dengan filter berlapis (tahun, sektor, format). Menemukan irisan dataset yang paling spesifik dalam hitungan detik.",
+                        "mediaUrl": "/assets/features/datahub/advanced-search.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "Shield",
+                        "title": "Comprehensive Audit Trail",
+                        "desc": "Sistem audit terpusat yang merekam setiap modifikasi data. Memastikan akuntabilitas penuh dengan melacak riwayat pembersihan dan sumber asli dari setiap angka.",
+                        "mediaUrl": "/assets/features/datahub/audit-trail.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "CheckSquare",
+                        "title": "Validation & Quality Score",
+                        "desc": "Algoritma yang mendeteksi anomali (outlier) dan nilai yang hilang (missing value), serta memberikan skor kelayakan data sebelum didistribusikan.",
+                        "mediaUrl": "/assets/features/datahub/quality-score.png",
+                        "mediaType": "image"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "AdvantagesBlock",
+            "order": 3,
+            "data": {
+                "title": "Mengapa DataHub Sangat Krusial?",
+                "subtitle": "Mengubah Rawa Data (Data Swamp) Menjadi Aset Terstruktur",
+                "items": [
+                    {
+                        "icon": "Database",
+                        "title": "Satu Pintu Kebenaran (Single Source of Truth)",
+                        "desc": "Menghilangkan kebingungan akibat perbedaan versi data antar dinas. Semua pimpinan merujuk pada satu dataset yang telah tervalidasi."
+                    },
+                    {
+                        "icon": "Activity",
+                        "title": "Siap Untuk Analitik Lanjutan",
+                        "desc": "Data yang bersih dan terstruktur adalah syarat mutlak sebelum daerah dapat mengadopsi teknologi AI atau Big Data Analytics di masa depan."
+                    },
+                    {
+                        "icon": "Lock",
+                        "title": "Integritas Data Terjamin",
+                        "desc": "Proses validasi bertingkat dan jejak audit yang transparan meminimalisir risiko manipulasi data sektoral."
+                    }
+                ]
+            }
+        },
+        {
+            "type": "FaqBlock",
+            "order": 4,
+            "data": {
+                "title": "Pertanyaan Umum Integrasi (FAQ)",
+                "items": [
+                    {
+                        "q": "Bagaimana sistem melakukan Data Cleaning secara otomatis?",
+                        "a": "Sistem menggunakan rule-based engine yang memindai file Excel/CSV saat diunggah. Engine akan menghapus spasi berlebih, mengubah format tanggal menjadi standar, dan mendeteksi sel yang kosong sebelum menyimpannya ke database utama."
+                    },
+                    {
+                        "q": "Apa fungsi fitur Advanced Search dan Filtering pada sistem ini?",
+                        "a": "Fitur ini memungkinkan analis atau pimpinan daerah memfilter data secara spesifik, misalnya: mencari 'Data Kesehatan Ibu dan Anak' yang spesifik pada 'Kecamatan A' di 'Tahun 2023', sehingga tidak perlu lagi membuka puluhan file manual."
+                    },
+                    {
+                        "q": "Bagaimana sistem Audit Trail bekerja?",
+                        "a": "Audit Trail bekerja di latar belakang (background process). Sistem ini mencatat ID pengguna, waktu unggah, riwayat perubahan kolom, dan status validasi, sehingga integritas dan keaslian data dapat dipertanggungjawabkan kapan saja."
+                    }
+                ]
+            }
+        }
+    ]
+}

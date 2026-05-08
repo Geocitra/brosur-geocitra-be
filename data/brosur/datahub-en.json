@@ -1,0 +1,103 @@
+{
+    "slug": "datahub-en",
+    "name": "Unified Data Portal (DataHub)",
+    "tagline": "Centralized Integration, Automated Data Cleaning, and Sectoral Cataloging Portal.",
+    "primaryColor": "#0369a1",
+    "blocks": [
+        {
+            "type": "HeroBlock",
+            "order": 1,
+            "data": {
+                "title": "Building the Foundation for Data-Driven Policy",
+                "description": "An Enterprise Data Management System that solves fragmentation and dirty data issues across departments. DataHub automatically cleans, validates, and catalogs regional data into a smart central information hub ready for search and audit.",
+                "imageUrl": "/assets/datahub-mockup.png",
+                "fileUrl": "/uploads/datahub-brochure.pdf",
+                "buttonText": "Open Full Brochure (PDF)"
+               
+            }
+        },
+        {
+            "type": "FeaturesBlock",
+            "order": 2,
+            "data": {
+                "title": "Data Processing & Quality Assurance Architecture",
+                "features": [
+                    {
+                        "icon": "Filter",
+                        "title": "Automated Data Cleaning",
+                        "desc": "A smart engine that automatically tidies raw uploaded data by standardizing formats, normalizing naming, and ensuring data type consistency.",
+                        "mediaUrl": "/assets/features/datahub/data-cleaning.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "Search",
+                        "title": "Advanced Search & Smart Filtering",
+                        "desc": "Advanced retrieval capabilities with multi-layered filters (year, sector, format). Find specific dataset intersections in seconds.",
+                        "mediaUrl": "/assets/features/datahub/advanced-search.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "Shield",
+                        "title": "Comprehensive Audit Trail",
+                        "desc": "A centralized audit system recording every modification. Ensures full accountability by tracking cleaning history and the original source of every figure.",
+                        "mediaUrl": "/assets/features/datahub/audit-trail.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "CheckSquare",
+                        "title": "Validation & Quality Score",
+                        "desc": "Algorithms that detect outliers and missing values, providing an objective feasibility score before data distribution.",
+                        "mediaUrl": "/assets/features/datahub/quality-score.png",
+                        "mediaType": "image"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "AdvantagesBlock",
+            "order": 3,
+            "data": {
+                "title": "Why is DataHub Crucial?",
+                "subtitle": "Transforming Data Swamps into Structured Assets",
+                "items": [
+                    {
+                        "icon": "Database",
+                        "title": "Single Source of Truth",
+                        "desc": "Eliminates confusion from version differences between agencies. All leaders refer to a single validated dataset."
+                    },
+                    {
+                        "icon": "Activity",
+                        "title": "Ready for Advanced Analytics",
+                        "desc": "Clean, structured data is a prerequisite before adopting AI or Big Data Analytics technologies in the future."
+                    },
+                    {
+                        "icon": "Lock",
+                        "title": "Guaranteed Data Integrity",
+                        "desc": "Multi-level validation processes and transparent audit trails minimize the risk of sectoral data manipulation."
+                    }
+                ]
+            }
+        },
+        {
+            "type": "FaqBlock",
+            "order": 4,
+            "data": {
+                "title": "Integration FAQ",
+                "items": [
+                    {
+                        "q": "How does the system perform Data Cleaning automatically?",
+                        "a": "The system uses a rule-based engine that scans Excel/CSV files upon upload. The engine removes extra spaces, standardizes date formats, and detects empty cells before saving to the main database."
+                    },
+                    {
+                        "q": "What is the purpose of Advanced Search and Filtering?",
+                        "a": "These features allow analysts or leaders to filter data specifically—for example, searching for 'Maternal Health Data' for 'District A' in '2023'—eliminating the need to manually browse dozens of files."
+                    },
+                    {
+                        "q": "How does the Audit Trail system work?",
+                        "a": "The Audit Trail is a background process. it records the user ID, upload timestamp, column modification history, and validation status, ensuring data authenticity can be verified at any time."
+                    }
+                ]
+            }
+        }
+    ]
+}
