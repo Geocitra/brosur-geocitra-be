@@ -1,0 +1,107 @@
+{
+    "slug": "smart-analysis-en",
+    "name": "Smart Analysis",
+    "tagline": "AI-Powered Policy Analysis & Smart Content Generation System.",
+    "primaryColor": "#4f46e5",
+    "blocks": [
+        {
+            "type": "HeroBlock",
+            "order": 1,
+            "data": {
+                "title": "Transforming Data into Strategic Narratives in Minutes",
+                "description": "Smart Analysis is a 'Policy Content Factory' that helps leaders respond to critical issues instantly. Powered by AI, it analyzes raw data and automatically generates executive reports, media releases, and public communication drafts without starting from scratch.",
+                "imageUrl": "/assets/smart-analysis-mockup.png",
+                "fileUrl": "/uploads/smart-analysis-brochure-en.pdf",
+                "buttonText": "Open Full Brochure (PDF)"
+            }
+        },
+        {
+            "type": "FeaturesBlock",
+            "order": 2,
+            "data": {
+                "title": "Policy Intelligence Architecture",
+                "features": [
+                    {
+                        "icon": "Cpu",
+                        "title": "Multi-Audience Content Generator",
+                        "desc": "One-click transformation of raw data into various formats: Executive Reports for Leaders, Press Releases for Media, or Simplified Narratives for the Public.",
+                        "mediaUrl": "/assets/features/smart/ai-generator.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "MessageSquare",
+                        "title": "AI Request & Brainstorming",
+                        "desc": "A virtual assistant ready to discuss the impacts of regional phenomena (e.g., inflation or disasters) to enrich your policy perspective.",
+                        "mediaUrl": "/assets/features/smart/ai-request.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "AlertTriangle",
+                        "title": "Early Warning & Spatial Detection",
+                        "desc": "Interactive maps that detect real-time field anomalies and immediately trigger the system to prepare initial analysis drafts.",
+                        "mediaUrl": "/assets/features/smart/early-warning.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "FileText",
+                        "title": "Standardized Reporting",
+                        "desc": "Automatically generates documents with layouts and language structures that comply with government administrative standards.",
+                        "mediaUrl": "/assets/features/smart/standard-report.png",
+                        "mediaType": "image"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "AdvantagesBlock",
+            "order": 3,
+            "data": {
+                "title": "Why is Smart Analysis Revolutionary?",
+                "subtitle": "Unprecedented Bureaucratic Efficiency",
+                "items": [
+                    {
+                        "icon": "Clock",
+                        "title": "90% Reduction in Response Time",
+                        "desc": "The process of drafting analyses and reports that usually takes 5-7 hours can now be completed in under 10 minutes."
+                    },
+                    {
+                        "icon": "Shield",
+                        "title": "Objectivity & Analytical Accuracy",
+                        "desc": "AI minimizes cognitive bias and human error in translating raw figures, ensuring every policy is built on solid, verified facts."
+                    },
+                    {
+                        "icon": "Target",
+                        "title": "Precise Cross-Audience Communication",
+                        "desc": "Eliminates miscommunication by automatically adjusting the tone, whether for managerial levels (Regents) or public media releases."
+                    },
+                    {
+                        "icon": "Zap",
+                        "title": "Focus on Execution, Not Administration",
+                        "desc": "Leaders and analysts are no longer exhausted by drafting words from scratch, allowing full focus on solving problems in the field."
+                    }
+                ]
+            }
+        },
+        {
+            "type": "FaqBlock",
+            "order": 4,
+            "data": {
+                "title": "Artificial Intelligence FAQ",
+                "items": [
+                    {
+                        "q": "Is the AI-generated content safe and accurate for government use?",
+                        "a": "Yes. The AI acts as a drafting assistant. It composes narratives based on hard data inputted from regional systems, and users retain full control to edit (manual review) before documents are downloaded or distributed."
+                    },
+                    {
+                        "q": "How does the system adjust the report's language style?",
+                        "a": "The system is trained with formal administrative and journalistic linguistic standards. Users can toggle audience settings: 'Media Release' uses an inverted pyramid journalistic style, while 'Executive Report' uses a formal executive summary style."
+                    },
+                    {
+                        "q": "Who are the primary users of this application?",
+                        "a": "It is specifically designed for Managerial and Executive levels: Heads of Planning Agencies (BAPPEDA/BRIDA), Department Heads, Government Spokespersons, or Senior Policy Analysts."
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,108 @@
+{
+    "slug": "smart-analysis",
+    "name": "Smart Analysis",
+    "tagline": "Sistem Analisis Kebijakan & Generator Konten Cerdas Berbasis AI.",
+    "primaryColor": "#4f46e5",
+    "blocks": [
+        {
+            "type": "HeroBlock",
+            "order": 1,
+            "data": {
+                "title": "Mengubah Angka Menjadi Narasi Strategis dalam Hitungan Menit",
+                "description": "Smart Analysis adalah 'Pabrik Konten Kebijakan' yang membantu pimpinan daerah merespons isu krusial secara instan. Dengan teknologi AI, sistem ini menganalisis data mentah dan secara otomatis menghasilkan draf laporan pimpinan, rilis media, hingga bahan sosialisasi publik tanpa harus mengetik dari nol.",
+                "imageUrl": "/assets/smart-analysis-mockup.png",
+                "fileUrl": "/uploads/brosur-smart-analysis.pdf",
+                "buttonText": "Buka Brosur Lengkap (PDF)"
+                
+            }
+        },
+        {
+            "type": "FeaturesBlock",
+            "order": 2,
+            "data": {
+                "title": "Arsitektur Kecerdasan Kebijakan",
+                "features": [
+                    {
+                        "icon": "Cpu",
+                        "title": "Multi-Audience Content Generator",
+                        "desc": "Satu klik untuk mengubah data mentah menjadi berbagai format bahasa: Laporan Eksekutif untuk Kepala Daerah, Rilis Pers untuk Media, atau Narasi Sederhana untuk masyarakat.",
+                        "mediaUrl": "/assets/features/smart/ai-generator.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "MessageSquare",
+                        "title": "AI Request & Brainstorming",
+                        "desc": "Asisten virtual yang siap diajak berdiskusi terkait dampak suatu fenomena daerah (misal: inflasi atau bencana) untuk memperkaya sudut pandang kebijakan Anda.",
+                        "mediaUrl": "/assets/features/smart/ai-request.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "AlertTriangle",
+                        "title": "Early Warning & Spatial Detection",
+                        "desc": "Peta interaktif yang mendeteksi anomali di lapangan secara real-time dan langsung memicu sistem untuk menyiapkan draf analisis awal.",
+                        "mediaUrl": "/assets/features/smart/early-warning.png",
+                        "mediaType": "image"
+                    },
+                    {
+                        "icon": "FileText",
+                        "title": "Standardized Reporting",
+                        "desc": "Menghasilkan dokumen dengan tata letak (layout) dan struktur bahasa yang sudah disesuaikan dengan standar administrasi pemerintahan secara otomatis.",
+                        "mediaUrl": "/assets/features/smart/standard-report.png",
+                        "mediaType": "image"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "AdvantagesBlock",
+            "order": 3,
+            "data": {
+                "title": "Mengapa Smart Analysis Revolusioner?",
+                "subtitle": "Efisiensi Birokrasi yang Belum Pernah Ada Sebelumnya",
+                "items": [
+                    {
+                        "icon": "Clock",
+                        "title": "Pangkas Waktu Respons Hingga 90%",
+                        "desc": "Proses penyusunan analisis dan laporan yang biasanya memakan waktu 5-7 jam kini dapat diselesaikan di bawah 10 menit."
+                    },
+                    {
+                        "icon": "Shield",
+                        "title": "Objektivitas & Akurasi Analisis",
+                        "desc": "AI meminimalisir bias kognitif atau kesalahan manusia (human error) dalam menerjemahkan angka mentah, memastikan setiap kebijakan berlandaskan fakta yang solid."
+                    },
+                    {
+                        "icon": "Target",
+                        "title": "Komunikasi Lintas Audiens yang Presisi",
+                        "desc": "Menghilangkan miskomunikasi dengan menyesuaikan gaya bahasa secara otomatis, baik untuk level manajerial (Bupati) maupun rilis media publik."
+                    },
+                    {
+                        "icon": "Zap",
+                        "title": "Fokus pada Eksekusi, Bukan Administrasi",
+                        "desc": "Pimpinan dan analis daerah tidak lagi terjebak kelelahan menyusun kata-kata dari nol, sehingga energi difokuskan penuh pada penyelesaian masalah di lapangan."
+                    }
+                ]
+            }
+        },
+        {
+            "type": "FaqBlock",
+            "order": 4,
+            "data": {
+                "title": "Pertanyaan Seputar Kecerdasan Buatan (FAQ)",
+                "items": [
+                    {
+                        "q": "Apakah hasil tulisan AI dari sistem ini aman dan akurat untuk pemerintah?",
+                        "a": "Ya. AI di sistem ini bertindak sebagai asisten penyusun (drafter). AI merangkai narasi berdasarkan data keras (hard data) yang dimasukkan dari sistem daerah, dan pengguna tetap memiliki kontrol penuh untuk mengedit (manual review) sebelum dokumen diunduh atau didistribusikan."
+                    },
+                    {
+                        "q": "Bagaimana sistem menyesuaikan gaya bahasa laporan?",
+                        "a": "Sistem ini telah dilatih (prompt engineering) dengan tata bahasa birokrasi pemerintahan Indonesia. Terdapat tombol pilihan audiens, jika Anda memilih 'Rilis Media', AI akan menggunakan kaidah jurnalistik (Piramida Terbalik). Jika Anda memilih 'Laporan Bupati', AI akan menggunakan gaya bahasa ringkasan eksekutif formal."
+                    },
+                    {
+                        "q": "Siapa pengguna utama aplikasi ini?",
+                        "a": "Aplikasi ini dirancang khusus untuk level Manajerial dan Eksekutif: Kepala Badan Perencana (BAPPEDA/BRIDA), Kepala Dinas, Juru Bicara Pemerintah Daerah, atau Analis Kebijakan Senior."
+                    }
+                ]
+            }
+        }
+    ]
+}
